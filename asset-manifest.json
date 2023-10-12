@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.f08cce82.css",
-    "main.js": "/static/js/main.8ab17dc6.js",
-    "static/js/787.9bbbadeb.chunk.js": "/static/js/787.9bbbadeb.chunk.js",
-    "index.html": "/index.html",
-    "main.f08cce82.css.map": "/static/css/main.f08cce82.css.map",
-    "main.8ab17dc6.js.map": "/static/js/main.8ab17dc6.js.map",
-    "787.9bbbadeb.chunk.js.map": "/static/js/787.9bbbadeb.chunk.js.map"
+    "main.css": "/waleskaosses/static/css/main.f08cce82.css",
+    "main.js": "/waleskaosses/static/js/main.37bbf6f7.js",
+    "static/js/787.9bbbadeb.chunk.js": "/waleskaosses/static/js/787.9bbbadeb.chunk.js",
+    "index.html": "/waleskaosses/index.html",
+    "main.f08cce82.css.map": "/waleskaosses/static/css/main.f08cce82.css.map",
+    "main.37bbf6f7.js.map": "/waleskaosses/static/js/main.37bbf6f7.js.map",
+    "787.9bbbadeb.chunk.js.map": "/waleskaosses/static/js/787.9bbbadeb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f08cce82.css",
-    "static/js/main.8ab17dc6.js"
+    "static/js/main.37bbf6f7.js"
   ]
 }
