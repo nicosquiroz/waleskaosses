@@ -2,12 +2,30 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import Landing from './Landing';
+import Negocios from './Negocios';
 import reportWebVitals from './reportWebVitals';
 
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Link
+
+} from 'react-router-dom';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <App/>
+    {/* <Router>
+        <Routes>
+
+            <Route path='/' element={<Landing />}></Route>
+            
+            <Route path='/negocios' element={<Negocios />}></Route>
+            
+        </Routes>
+    </Router> */}
   </React.StrictMode>
 );
 

@@ -1,0 +1,9 @@
+.web {
+    background-image: url("./img/web.png");
+    background-repeat: no-repeat;
+    background-size: 140%;
+    
+    height:7250px;
+    width: 101%;
+    margin-left: -1svw;
+} 

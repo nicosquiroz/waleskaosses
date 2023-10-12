@@ -1,9 +1,13 @@
 import React from "react";
 import "./Negocios.css";
+import web from "./img/web.png";
+import "./Landing.css";
 
 export const Landing = () => {
   return (
-    <div>Waleska Osses</div>
+    <div className="web">
+    {/* <img className="web" src={web}/> */}
+    </div>
 
 
 
@@ -14,7 +18,6 @@ export const Landing = () => {
 
 
 
-    
   );
 
 };
