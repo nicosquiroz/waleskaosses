@@ -1,0 +1,133 @@
+
+.frame {
+    background-color: #f8f5f1;
+    /* height: 1024px; */
+    position: relative;
+    margin-left: 6vw;
+    margin-right: 6vw;
+
+    }
+
+    .frame .p {
+        color: #222222;
+        font-family: "Helvetica-Light", Helvetica;
+        font-size: 1.1em;
+        font-weight: 300;
+        left: 647px;
+        letter-spacing: -0.4px;
+        line-height: 19.2px;
+        text-align: center;
+        margin: .5em;
+        }
+
+    .frame .text-wrapper-3 {
+        color: #ffffff;
+        font-family: "theseasons-bd";
+        font-size: 2.5em;
+        /* font-weight: bold; */
+        /* left: 678px; */
+        letter-spacing: -1.35px;
+        line-height: 40.5px;
+        mix-blend-mode: exclusion;
+        /* position: absolute; */
+        text-align: center;
+        padding-top: 43.4vh;
+        /* top: 378px; */
+        /* width: 408px; */
+        }
+
+    .frame .text-wrapper-2 {
+        color: #000000;
+        font-family: "theseasons-bd";
+        font-size: 1.3em;
+        /* font-weight: 700; */
+        left: 757px;
+        letter-spacing: -0.48px;
+        line-height: 23px;
+        text-align: center;
+        padding-top: 3vh;
+        }   
+
+
+
+
+.frame .agenda {
+    color: #083d14;
+    font-family: "Helvetica-Bold", Helvetica;
+    font-size: 1em;
+    font-weight: 700;
+    letter-spacing: -0.4px;
+    line-height: 19.2px;
+    margin: -1vh;
+    margin-top: 16vh;
+    border-bottom-color: #000000;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-radius: 0;
+    border-color: black;
+    border-width: 1px;
+    background: none;
+    cursor: pointer;
+    }
+    .frame .agenda:hover {
+        color: white;
+        background-color: #083d14;
+    }
+
+.frame .conoce {
+color: #000000;
+font-family: "Helvetica-Light", Helvetica;
+font-size: 1em;
+font-weight: 300;
+letter-spacing: -0.4px;
+line-height: 19.2px;
+margin-top: .5vh;
+
+}
+
+
+.frame .overlap-group {
+    display: flex;
+}
+.frame .datos {
+    color: #797979;
+    font-family: "FONTSPRING DEMO - The Seasons-Bold", Helvetica;
+    font-size: .8em;
+    font-weight: 700;
+    letter-spacing: -0.38px;
+    line-height: 18.2px;
+    margin-top: -.7vh;;
+    
+}
+
+
+
+
+
+
+
+    .frame .instagram {
+        margin-left: 6.6vw;
+    }
+    .frame .mail {
+    mix-blend-mode: multiply;
+    margin-left: 1vw;
+    margin-top: 5px;
+    
+    }
+
+    .frame .line {
+    height: 1px;
+    left: 124px;
+    object-fit: cover;
+    top: 765px;
+    width: 371px;
+    }
+    .frame .img {
+    height: 2px;
+    left: 124px;
+    object-fit: cover;
+    top: 793px;
+    width: 329px;
+    }

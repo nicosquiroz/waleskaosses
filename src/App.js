@@ -1,6 +1,7 @@
 import React from "react";
 import Negocios from "./Negocios.js";
 import Landing from "./Landing.js";
+import ScrollContainer from './ScrollContainer.js';
 
 import {
     BrowserRouter as Router,
@@ -12,6 +13,7 @@ import {
 
 export const App = () => {
   return (
+    // <ScrollContainer>
     <Router>
         <Routes>
 
@@ -21,6 +23,7 @@ export const App = () => {
             
         </Routes>
     </Router>
+    // </ScrollContainer>
   );
 
 

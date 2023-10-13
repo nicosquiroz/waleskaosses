@@ -1,9 +1,15 @@
+
+
+body {
+    background-color: #f8f5f1;
+}
+
 .web {
     background-image: url("./img/web.png");
     background-repeat: no-repeat;
     background-size: 140%;
     
     height:7250px;
-    width: 101%;
-    margin-left: -1svw;
+    width: 100%;
+    margin-left: svw;
 } 
