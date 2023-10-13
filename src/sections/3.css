@@ -1,0 +1,54 @@
+.separador1 {
+    /* object-position: left; */
+    margin-left: -6.2svw;
+    margin-left: -77px;
+    width: 1310px;
+    margin-top: -254px;
+    z-index: -100;
+    mix-blend-mode: darken;
+
+}
+
+
+
+.programa{
+    font-family: "theseasons-bd";
+    font-size: 6em;
+    margin-top: -220px;
+    letter-spacing: -.08em;
+    margin-left: -2vh;
+    word-spacing: .2em;
+    white-space: nowrap;
+}
+.busqueda { 
+    font-family: "theseasons-bd";
+    font-size: 6em;
+    margin-left:10vmin;
+    letter-spacing: -.08em;
+    word-spacing: .2em;
+    margin-top: -22px;
+    white-space: nowrap;
+    
+}
+
+.laberinto1 {
+    margin-top: 400px;
+    position: absolute;
+    height: 400px;
+    /* width: 40vw; */
+    right: 40vw;
+    margin-left: auto;
+}
+.estrellas1 {
+    position:absolute;
+    margin-top: 780px;
+    margin-left: 33vw;;
+    height: 300px;
+}
+
+.laberinto2 {
+    margin-top: 1050px;
+    margin-left: 50svw;
+    position: absolute;
+    height: 400px;
+}
