@@ -25,7 +25,7 @@ return (
       />
 {/* <p className="agenda">Agenda una llamada exploratoria Gratuíta</p> */}
 {/* <InlineWidget url="https://calendly.com/walecampusano/30min" /> */}
-<p className="conoce">Conoce acerca de las asesorías</p>
+<p className="conoce"><a href="#sección2">Conoce acerca de las asesorías</a></p>
 
 
 <div className="overlap-group">
@@ -37,7 +37,7 @@ Data Scientist&nbsp;&nbsp;•&nbsp;&nbsp;Astrónoma
 {/* <img className="mail" alt="mail" src={mail}/> */}
 
 
-<div className="captura-de-pantalla-wrapper">
+<div id="sección2" className="captura-de-pantalla-wrapper">
 <a href="http://www.instagram.com/waleska_osses"><img className="instagram" alt="Instagram" src={instagram} /></a>
 </div>
 
