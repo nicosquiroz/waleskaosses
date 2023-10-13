@@ -1,0 +1,188 @@
+
+
+
+.frame {
+    height: 1462px;
+    overflow: hidden;
+    position: relative;
+    width: 1728px;
+}
+
+.frame .overlap {
+    height: 1293px;
+    left: 87px;
+    /* position: absolute; */
+    top: 409px;
+    width: 1483px;
+}
+
+.frame .pulsar {
+    height: 1293px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1288px;
+}
+
+.frame .overlap-group {
+    height: 1088px;
+    left: -4px;
+    position: absolute;
+    top: -35px;
+    width: 1340px;
+}
+
+.frame .rectangle {
+    background-color: #e7e9e2;
+    height: 234px;
+    left: 360px;
+    position: absolute;
+    top: 758px;
+    width: 177px;
+}
+
+.frame .group {
+    height: 1054px;
+    left: 0;
+    position: absolute;
+    top: 34px;
+    width: 1296px;
+}
+
+.frame .ellipse {
+    background-color: #3fb3bb;
+    border-radius: 2.5px;
+    box-shadow: 0px 4px 4px #00000040;
+    height: 5px;
+    left: 334px;
+    position: absolute;
+    top: 323px;
+    width: 5px;
+}
+
+.frame .div {
+    color: #000000;
+    font-size: 24px;
+    font-weight: 400;
+    height: 24px;
+    left: 993px;
+    letter-spacing: -1.2px;
+    line-height: 24px;
+    position: absolute;
+    top: 991px;
+    white-space: nowrap;
+}
+
+.frame .lack-de-herramientas {
+    color: #000000;
+    
+    font-size: 24px;
+    font-weight: 400;
+    height: 72px;
+    left: 1394px;
+    letter-spacing: -1.2px;
+    line-height: 24px;
+    position: absolute;
+    top: -297px;
+}
+
+.frame .lo-que-no-es-obvio {
+    color: #464646;
+    
+    font-size: 24px;
+    font-weight: 400;
+    height: 587px;
+    left: 900px;
+    line-height: 24px;
+    position: absolute;
+    top: 231px;
+    width: 583px;
+}
+
+.frame .text-wrapper-5 {
+    font-weight: 300;
+    letter-spacing: -1.2px;
+}
+
+.frame .text-wrapper-6 {
+    font-family: "theseasons-bd";
+    font-weight: 700;
+    letter-spacing: 0.12px;
+}
+
+.frame .text-wrapper-7 {
+    /* font-family: "FONTSPRING DEMO - The Seasons-Regular", Helvetica; */
+    letter-spacing: 0.12px;
+}
+
+.frame .exploraremos-el {
+    color: #464646;
+    
+    font-size: 24px;
+    font-weight: 400;
+    height: 587px;
+    left: 825px;
+    line-height: 24px;
+    position: absolute;
+    top: 384px;
+    width: 604px;
+}
+
+.frame .text-wrapper-8 {
+    
+    font-weight: 700;
+    letter-spacing: -1.2px;
+}
+
+.frame .incluso-si-tenemos {
+    color: #464646;
+    
+    font-size: 24px;
+    font-weight: 400;
+    height: 73px;
+    left: 650px;
+    line-height: 24px;
+    position: absolute;
+    top: 781px;
+    width: 649px;
+}
+
+.frame .overlap-2 {
+    height: 131px;
+    left: -150px;
+    position: absolute;
+    top: 227px;
+    width: 1425px;
+}
+
+.frame .p {
+    color: #000000;
+    font-family: "theseasons-bd";
+    font-size: 64px;
+    font-weight: 700;
+    height: 70px;
+    left: 215px;
+    letter-spacing: 2.88px;
+    line-height: 61.4px;
+    position: absolute;
+    text-align: right;
+    top: 0;
+    white-space: nowrap;
+    width: 1210px;
+}
+
+.frame .text-wrapper-9 {
+    color: #000000;
+    font-family: "theseasons-bd";
+    font-size: 64px;
+    font-weight: 700;
+    height: 70px;
+    left: 0;
+    letter-spacing: 2.88px;
+    line-height: 61.4px;
+    position: absolute;
+    text-align: right;
+    top: 61px;
+    white-space: nowrap;
+    width: 1210px;
+}

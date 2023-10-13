@@ -1,0 +1,138 @@
+
+.frame2 {
+    background-color: rgba(255, 255, 255, 0.41);
+    background-color: #E7E9E2;
+    height: 130vh;
+}
+
+.sección {
+    margin-left: 6svw;
+    margin-right: 6svw;
+    /* margin-top: 2svw; */
+}
+
+.situacion {
+    padding-top: 3svw;
+    color: #000000;
+    font-family: "theseasons-bd";
+    font-size: 3em;
+    letter-spacing: .003em;
+    text-align: left;
+    white-space: nowrap;
+    line-height: 1em;
+    }
+
+
+
+.pulsar {
+    margin-top: -180px;
+    margin-left: 25px;
+    height: 1000px;
+    width: 1000px;
+    }
+
+.opcion {
+    margin-top: -30px;
+    margin-left: 30px;
+    color: #464646;
+    font-family: "Helvetica-Light", Helvetica;
+    font-size: 1.6em;
+    /* height: 508px; */
+    /* left: 72px; */
+    letter-spacing: -1.95px;
+    line-height: 1em;
+    width: 500px;
+    }
+    
+.text-wrapper {
+    font-weight: 300;
+    }
+    .frame .span {
+    font-family: "Helvetica-Bold", Helvetica;
+    /* font-size: 35px; */
+    font-weight: 700;
+    letter-spacing: -1.75px;
+    
+    }
+.text-wrapper-2 {
+    font-family: "Helvetica-Bold", Helvetica;
+    /* font-size: 33px; */
+    font-weight: 700;
+    letter-spacing: -1.65px;
+    }
+.text-wrapper-3 {
+    /* font-size: 33px; */
+    font-weight: 300;
+    letter-spacing: -1.65px;
+    }
+.text-wrapper-4 {
+    /* font-size: 34px; */
+    font-weight: 300;
+    letter-spacing: -1.7px;
+    }
+
+
+
+
+
+
+
+
+
+
+.beneficios {
+    margin-left: 50vw;
+    margin-top: -600px;
+    font-size: 1.15em;
+    line-height: 1em;
+    font-family: "Helvetica-Light", Helvetica;
+    color: #464646;
+}
+
+.lo-que-no-es-obvio {
+ 
+    font-family: "Helvetica-Light", Helvetica;
+    /* margin-left:  */
+    
+    }
+    .text-wrapper-6 {
+        font-family: "theseasons-bd";
+        font-weight: bold;
+        font-size: 1.15em;
+        letter-spacing: .03em;
+        }
+
+
+
+.exploraremos-el {
+            margin-left: -4vw;
+            margin-top: 60px;
+            width: 400px;
+            }
+.incluso-si-tenemos {
+            margin-left: -14vw;  
+            margin-top: 60px;     
+            width: 500px;         
+            }
+            
+        
+  .lack-de-herramientas {
+        color: #000000;
+        font-family: "Inter-Regular", Helvetica;
+        /* font-size: 24px; */
+        letter-spacing: -1.2px;
+        
+       
+        }
+  
+  .text-wrapper-5 {
+        
+        letter-spacing: -1.2px;
+        }
+  
+
+
+.text-wrapper-8 {
+        font-family: "Helvetica-Bold", Helvetica;
+        letter-spacing: -1.2px;
+        }

@@ -1,15 +1,18 @@
 
 
-body {
-    background-color: #f8f5f1;
+.landing {
+    
+     margin-left: 6vw;
+    margin-right: 6vw;
 }
 
 .web {
-    background-image: url("./img/web.png");
+    /* background-image: url("./img/web.png"); */
+    background-color: #f8f5f1;
     background-repeat: no-repeat;
     background-size: 140%;
     
     height:7250px;
-    width: 100%;
-    margin-left: svw;
+    /* width: 100%; */
+    /* margin-left: svw; */
 } 

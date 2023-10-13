@@ -32,7 +32,7 @@ return (
 <div className="datos">
 Santiago, Chile
 <br />
-Data Scientist&nbsp;&nbsp;•&nbsp;&nbsp;Astronoma
+Data Scientist&nbsp;&nbsp;•&nbsp;&nbsp;Astrónoma
 </div>
 {/* <img className="mail" alt="mail" src={mail}/> */}
 
