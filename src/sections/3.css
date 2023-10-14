@@ -9,7 +9,37 @@
 
 }
 
+ .parrafos {
+    color: #000000;
+    /* left: 24px; */
+    font-family: "Helvetica-Light", Helvetica;
+    font-size: 1.25em;
 
+    letter-spacing: -1.95px;
+    line-height: 1em;
+    width: 270px;
+    
+    margin-left: 10vw;
+    margin-top: 120px;
+    }
+
+.de-eso-se-trata {
+    margin-left: 43vw;
+    /* position: absolute; */
+    width: 300px;
+    margin-top: 80px;
+}
+
+.estas-herramientas {
+    font-family: "theseasons-bd";
+    font-size: 1.5em;
+    margin-top: 130px;
+    letter-spacing: -.07em;
+    word-spacing: .2em;
+    width: 505px;
+    line-height: 1em;
+    /* white-space: nowrap; */
+}
 
 .programa{
     font-family: "theseasons-bd";
@@ -32,24 +62,89 @@
 }
 
 .laberinto1 {
-    margin-top: 400px;
+    margin-top: -360px;
     position: absolute;
-    height: 400px;
+    height: 420px;
     /* width: 40vw; */
     right: 40vw;
     margin-left: auto;
 }
 .estrellas1 {
     position:absolute;
-    margin-top: 780px;
-    margin-left: 33vw;;
-    height: 300px;
+    margin-top: -250px;
+    margin-left: 25vw;;
+    height: 400px;
 }
 
 .laberinto2 {
-    margin-top: 1050px;
-    margin-left: 50svw;
+    /* margin-top: 1050px; */
+    margin-left: 40svw;
     position: absolute;
     height: 400px;
     overflow: hidden;
+}
+
+
+.primera-inserción {
+    color: #01846a;
+    opacity: 0.38;
+    margin-top: 1.2em;
+    font-family: "theseasons-bd";
+    font-size: 4.4em;
+    margin-left: -150px;
+    /* margin-right: 7000px; */
+    letter-spacing: -.02em;
+    word-spacing: .2em;
+    line-height: .8em;
+    /* display: inline-block; */
+    display: flex;
+    width: 900px;
+    text-align: right;
+    /* position:relative; */
+}
+
+.estrellas2 {
+    position: absolute;
+    transform: rotate(120deg) scale(.5);
+    mix-blend-mode:multiply;
+    display: flex;
+    margin-left: 35vw;
+    margin-top: -200px;
+}
+
+div .botón {
+    display:flex;
+    align-content: center;
+}
+
+.agendar-texto {
+    font-family: "theseasons-bd";
+    color: white;
+    font-size: 1.4em;
+    padding: 3em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin: auto;
+
+    margin-top: 100px;
+    /* position:absolute; */
+   /* display:block; */
+   text-align: center;
+   background-image: url("../img/botónverde.svg");
+
+}
+
+.llamada {
+    font-family: "theseasons-bd";
+    font-size: 1.8em;
+    letter-spacing: -.05em;
+    word-spacing: .2em;
+    width: 505px;
+    line-height: 1em;
+    text-align:center;
+    display: flex;
+    margin: auto;
+    /* margin-right: 0; */
+    margin-top: 30px;
+    
 }
