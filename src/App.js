@@ -2,6 +2,8 @@ import React from "react";
 import Negocios from "./Negocios.js";
 import Landing from "./Landing.js";
 import ScrollContainer from './ScrollContainer.js';
+import './fonts/Fontspring-DEMO-theseasons-bd.otf';
+import './fonts/Fontspring-DEMO-theseasons-reg.otf';
 
 import {
     BrowserRouter as Router,

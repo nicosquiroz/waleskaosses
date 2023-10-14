@@ -14,8 +14,15 @@ code {
 
 
 @font-face {
-  font-family: 'theseasons';
-  src: local('theseasons-bd'), url(./fonts/Fontspring-DEMO-theseasons-bd.otf) format('otf');
+  font-family: 'theseasons-bd';
+  src: local('theseasons-bd'), url(./fonts/Fontspring-DEMO-theseasons-bd.otf) format('opentype');
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
+}
+
+@font-face {
+  font-family: 'theseasons-li';
+  src: local('theseasons-li'), url(./fonts/Fontspring-DEMO-theseasons-reg.otf) format('opentype');
   /* other formats include: 'woff2', 'truetype, 'opentype',
                             'embedded-opentype', and 'svg' */
 }

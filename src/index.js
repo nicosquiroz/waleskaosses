@@ -5,6 +5,8 @@ import App from './App';
 import Landing from './Landing';
 import Negocios from './Negocios';
 import reportWebVitals from './reportWebVitals';
+import './fonts/Fontspring-DEMO-theseasons-bd.otf';
+import './fonts/Fontspring-DEMO-theseasons-reg.otf';
 
 import {
   BrowserRouter as Router,

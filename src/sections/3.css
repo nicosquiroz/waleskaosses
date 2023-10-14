@@ -1,5 +1,5 @@
 .sec3 {
-    height: 300vh;
+    height: 2100px;
 }
 .separador1 {
     /* object-position: left; */
@@ -34,7 +34,7 @@
 }
 
 .estas-herramientas {
-    font-family: "theseasons-bd";
+    font-family: "theseasons-li";
     font-size: 1.5em;
     margin-top: 130px;
     letter-spacing: -.07em;
@@ -91,17 +91,17 @@
 .primera-inserción {
     color: #01846a;
     opacity: 0.38;
-    margin-top: 1.2em;
+    margin-top: 1.6em;
     font-family: "theseasons-bd";
-    font-size: 4.4em;
-    margin-left: -150px;
+    font-size: 4em;
+    margin-left: -200px;
     /* margin-right: 7000px; */
     letter-spacing: -.02em;
     word-spacing: .2em;
     line-height: .8em;
     /* display: inline-block; */
     display: flex;
-    width: 900px;
+    width: 1000px;
     text-align: right;
     /* position:relative; */
 }
@@ -145,7 +145,7 @@ div .agendar-texto {
     position: relative;
    z-index: 1000;
    
-    font-family: "theseasons-bd";
+    font-family: "theseasons-li";
     color: white;
     font-size: 1.4em;
     padding-left: 3em;
@@ -177,12 +177,12 @@ div .agendar-texto {
 }
 
 .llamada {
-    font-family: "theseasons-bd";
-    font-size: 1.8em;
+    font-family: "theseasons-li";
+    font-size: 1.6em;
     letter-spacing: -.05em;
     word-spacing: .2em;
     width: 505px;
-    line-height: 1em;
+    line-height: 1.2em;
     text-align:center;
     display: flex;
     margin: auto;

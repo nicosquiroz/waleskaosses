@@ -3,7 +3,7 @@ import "./1.css";
 import mail from "../img/mail.png";
 import instagram from "../img/instagram.svg";
 import { PopupButton } from "react-calendly";
-
+import "../fonts.css"
 
 
 export const Seccion1 = () => {

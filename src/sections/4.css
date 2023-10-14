@@ -1,4 +1,52 @@
-.exitoimg {
-    width: 100vw;
-    height: 2000px;
+.sec4 {
+    height: 1400px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    
+}
+
+.éxitoimg {
+    /* width:0vmin; */
+    height: 755px;
+    margin-left: 5px;
+    position: absolute;
+    mix-blend-mode: darken;
+}
+.exito{
+    font-family: "theseasons-bd";
+    font-size: 6em;
+    /* margin-top: -1000px; */
+    letter-spacing: -.08em;
+    margin-left: -2vh;
+    word-spacing: .2em;
+    white-space: nowrap;
+    color: #083d14;
+    opacity: .8;
+}
+
+.tarjeta1 {
+    margin-top: 50px;
+}
+
+.testimonios {
+
+    display:flex;
+    overflow: hidden;
+}
+.testimonios p {
+    font-family: 'theseasons-li';
+    font-size: 1.2em;
+    /* font-weight: light; */
+    /* font-family: 'Times New Roman', Times, serif; */
+    text-align: center;
+    /* line-height: 2em; */
+    width: 200px;
+    padding: 20px;
+    color: white;
+    background-color: #083d14d7;
+    margin:.1em;
+    height: 300px;
+ 
+
 }
