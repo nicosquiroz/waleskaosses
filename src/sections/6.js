@@ -13,6 +13,7 @@ return (
 <div className="frame">
 
 <div className="fondonegro">
+
 <img className="separador2" src={separador2}/>
 <img className="sobremí" src={sobremí}/>
 </div>

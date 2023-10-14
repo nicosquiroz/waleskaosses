@@ -8,7 +8,6 @@ import sesion3 from "../img/sesion3.svg";
 import sesion4 from "../img/sesion4.svg";
 import sesion5 from "../img/sesion5.svg";
 import sesion6 from "../img/sesion6.svg";
-import separador2 from "../img/separador2.svg";
 import { PopupButton } from "react-calendly";
 
 
@@ -68,7 +67,7 @@ return (
     <div className="qué-obtendrás">QUÉ OBTENDRÁS</div>
     {/* </div> */}
     <div className="parrafos">
-        <p className="te-entrego">Te entrego un plan de acción, para que te enfoques y decidas qué camino tomar, vuelvas a sentirte una persona confiada en tí misma y aprendas a adaptar tu CV a los cargos que quieres. Después aprenderás cómo obtener ofertar laborales haciendo Networking y cómo responder estratégicamente las respuestas en las entrevistas laborales.</p>
+        <p className="te-entrego">Te entrego un plan de acción, para que te enfoques y decidas qué camino tomar, vuelvas a sentirte una persona confiada en tí misma y aprendas a adaptar tu CV a los cargos que quieres. Después aprenderás cómo obtener ofertas laborales haciendo Networking y cómo responder estratégicamente las respuestas en las entrevistas laborales.</p>
        
 <div className="descubre">Descubre cada sesión:</div>
 </div>
@@ -178,8 +177,8 @@ armonía en tu nueva vida laboral.</p>
 <div class='parent'>
 <img className="sesion1" src={sesion1}/>
 <span className="sesiones">
-<h1>S E S I Ó N 1 : A U T O C O N O C I M I E N T O ,<br></br>
-A U T O E S T I M A Y O B J E T I V O S L A B O R A L E S</h1>
+<h1>SESIÓN 1: AUTOCONOCIMIENTO, <br></br>
+AUTOESTIMA Y OBJETIVOS LABORALES</h1>
 
 <p>
 Elegir sabiamente a dónde direccionar tu carrera.</p>
@@ -195,7 +194,7 @@ en sí mismos.</p>
 <img class='parent' className="sesion2" src={sesion2}/>
 <span className="sesiones">
 
-<h1>S E S I Ó N 2 : O P T I M I Z A N D O T U C V</h1>
+<h1>SESIÓN 2: OPTIMIZANDO TU CV</h1>
 
 <p>
 Definir a qué trabajos y posiciones deseas aplicar.</p>
@@ -207,9 +206,8 @@ habilidades y experiencias relevantes.</p>
 <div class="parent">
 <img class='parent' className="sesion3" src={sesion3}/>
 <span className="sesiones">
-<h1>S E S I Ó N 3 : C R E A N D O O P O R T U N I D A D E S <br></br>
-
-L A B O R A L E S C O N L I N K E D I N</h1>
+<h1>SESIÓN 3: CREANDO OPORTUNIDADES <br></br>
+LBORALES CON LINKEDIN</h1>
 
 <p>
 Aprender a utilizar LinkedIn para buscar tu trabajo
@@ -222,9 +220,7 @@ en la plataforma.</p>
 <div class="parent">
 <img class='parent' className="sesion4" src={sesion4}/>
 <span className="sesiones">
-<h1>S E S I Ó N 4 : P R E P A R Á N D O T E  P A R A <br></br> E L  P R I M E R
-
-C O N T A C T O C O N L A S E M P R E S A S</h1>
+<h1>SESIÓN 4: PREPARÁNDOTE PARA<br></br> EL PRIMER CONTACTO CON LS EMPRESAS</h1>
 
 <p>
 Seguimiento de aplicación de lo aprendido en LinkedIn
@@ -241,7 +237,7 @@ empresa.</p>
 <div class="parent">
 <img class='parent' className="sesion5" src={sesion5}/>
 <span className="sesiones">
-<h1>S E S I Ó N 5 : P R E P A R A N D O L A E N T R E V I S T A</h1>
+<h1>SESIÓN 5: PREPARANDO LA ENTREVISTA</h1>
 
 <p>
 Crear un ambiente cómodo y conectar con
@@ -257,8 +253,8 @@ tus fortalezas la entrevista de recursos humanos</p>
 <img class='parent' className="sesion6" src={sesion6}/>
 
 <span className="sesiones">
-<h1>S E S I Ó N 6 : S E G U I M I E N T O Y P R E P A R A C I Ó N <br></br>
-P A R A E L B A L A N C E D E L A V I D A L A B O R A L</h1>
+<h1>SESIÓN 6: SEGUIMIENTO Y PREPARACIÓN <br></br>
+PARA EL BALANCE DE VIDA LABORAL</h1>
 
 <p>
 Seguimiento para otorgar mejoras en el proceso.</p>
@@ -291,7 +287,7 @@ armonía en tu nueva vida laboral.</p>
 
 
 
-<img className="separador2" src={separador2}/>
+
 
       
       </div>

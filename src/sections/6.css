@@ -1,11 +1,13 @@
 .fondonegro {
     display: flex;
+    /* margin-top: -50px; */
+
 }
 .separador2 {
     margin-left: -100px;
     width: 1700px;
     position: absolute;
-    margin-top: -50px;
+    margin-top: -330px;
     height:700px;
     /* object-fit: cover; */
     /* object-position: 0 10%; */
@@ -17,4 +19,5 @@
     width: 100vw;
     margin-left: -6.2svw;
     position: absolute;
+    margin-top: -55px;
 }
