@@ -1,6 +1,6 @@
 import React from "react";
 import "./6.css";
-import sobremí from "../img/sobremí.svg";  
+import sobremí from "../img/sobremi.svg";  
 import separador2 from "../img/separador2.svg";
 import libros from "../img/libros.png";
 
