@@ -1,6 +1,10 @@
+/* .sec6 {
+    background-image: url("../img/sobremí.svg");
+} */
 .fondonegro {
     display: flex;
     /* margin-top: -50px; */
+    
 
 }
 .separador2 {
@@ -20,4 +24,43 @@
     margin-left: -6.2svw;
     position: absolute;
     margin-top: -55px;
+    /* z-index: auto; */
+    /* opacity: .7; */
+    mix-blend-mode: darken;
+}
+
+
+.sobremicontent .parrafos{
+    margin-top: 50px;
+    color:white;   
+    mix-blend-mode: exclusion; 
+    z-index: 100;
+}
+
+
+
+.sobre-mí{
+    display:block;
+    font-family: "theseasons-bd";
+    font-size: 6em;
+    letter-spacing: -.08em;
+    word-spacing: .2em;
+    white-space: wrap;
+    text-align: left;
+    right:0;
+    z-index: 100;
+    color:white;   
+    mix-blend-mode: exclusion; 
+}
+
+.libros {
+    mix-blend-mode:screen;
+    opacity: .4;
+    margin-left: 10svw;
+    width: 400px;
+    margin-top: 50px;
+}
+
+.tomando {
+    width: 700px;
 }
