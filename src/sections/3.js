@@ -4,9 +4,11 @@ import separador from "../img/separador1.png";
 import laberinto1 from "../img/laberinto1.png";
 import estrellas1 from "../img/estrellas1.svg";
 import laberinto2 from "../img/laberinto2.png";
-import botónverde from "../img/botónverde.svg";
+import estrellasgrandes from "../img/estrellasgrandes.svg";
 export const Seccion3 = () => {
 return (
+
+    <div className="sec3">
 <div className="frame">
 <img className="separador1" src={separador}/>
 <div className="programa">PROGRAMA DE</div>
@@ -73,12 +75,14 @@ claro sobre cómo tus habilidades se alinean con la industria.
 La llamada exploratoria GRATUÍTA consiste en una primera conversación para poder<br></br> conocernos y plantear un plan de acción para brindarte personalizadamente estos beneficios.
 </p>
 
+<img className="estrellasgrandes" src={estrellasgrandes}/>
 
 
 
 
 
 
+</div>
 </div>
 );
 };

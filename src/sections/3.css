@@ -1,3 +1,6 @@
+.sec3 {
+    height: 300vh;
+}
 .separador1 {
     /* object-position: left; */
     margin-left: -6.2svw;
@@ -20,7 +23,7 @@
     width: 270px;
     
     margin-left: 10vw;
-    margin-top: 120px;
+    margin-top: 80px;
     }
 
 .de-eso-se-trata {
@@ -147,4 +150,11 @@ div .botón {
     /* margin-right: 0; */
     margin-top: 30px;
     
+}
+
+.estrellasgrandes {
+    position:absolute;
+    width: 70vw;
+    margin-top: -370px;
+    height: 700px;
 }
