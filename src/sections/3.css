@@ -118,22 +118,61 @@
 div .botón {
     display:flex;
     align-content: center;
+    z-index: 100;
+}
+/* div .botón:link .botón:visited {
+    color: black;
+    border-bottom-color: #000000;
+    border-width: 1px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-radius: 0;
+    border-color: black;
+} */
+div .botón:hover {
+    mix-blend-mode: multiply;
+    
 }
 
-.agendar-texto {
+.aa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+div .agendar-texto {
+    /* display: 'flex'; */
+    position: relative;
+   z-index: 1000;
+   
     font-family: "theseasons-bd";
     color: white;
     font-size: 1.4em;
-    padding: 3em;
+    padding-left: 3em;
+    padding-right: 3em;
     padding-top: 1em;
     padding-bottom: 1em;
-    margin: auto;
-
+ 
     margin-top: 100px;
+    
+    
+    /* right:-25vw; */
+    width: 300px;
+
     /* position:absolute; */
    /* display:block; */
    text-align: center;
    background-image: url("../img/botónverde.svg");
+   
+   cursor: pointer;
+   
+
+
+}
+.agendar-texto:hover {
+
+    mix-blend-mode: normal;
+    color: #083d14;
 
 }
 
@@ -157,4 +196,5 @@ div .botón {
     width: 70vw;
     margin-top: -370px;
     height: 700px;
+    z-index: 0;
 }

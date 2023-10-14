@@ -2,7 +2,7 @@ import React from "react";
 import "./1.css";
 import mail from "../img/mail.png";
 import instagram from "../img/instagram.svg";
-import { InlineWidget, PopupWidget, PopupButton } from "react-calendly";
+import { PopupButton } from "react-calendly";
 
 
 

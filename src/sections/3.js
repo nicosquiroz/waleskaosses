@@ -5,6 +5,10 @@ import laberinto1 from "../img/laberinto1.png";
 import estrellas1 from "../img/estrellas1.svg";
 import laberinto2 from "../img/laberinto2.png";
 import estrellasgrandes from "../img/estrellasgrandes.svg";
+import { PopupButton } from "react-calendly";
+
+
+
 export const Seccion3 = () => {
 return (
 
@@ -63,18 +67,33 @@ claro sobre cómo tus habilidades se alinean con la industria.
 
 
 <img className="estrellas2" src={estrellas1}/>
-<div className="botón">
 
-{/* <img className="botónverde" src={botónverde}/> */}
-<span className="agendar-texto">AGENDAR</span>
-</div>
+<div className="aa">
+<PopupButton className="agendar-texto"
+        url="https://calendly.com/walecampusano/20min"
+        /*
+         * react-calendly uses React's Portal feature (https://reactjs.org/docs/portals.html) to render the popup modal. As a result, you'll need to
+         * specify the rootElement property to ensure that the modal is inserted into the correct domNode.
+         */
+        rootElement={document.getElementById("root")}
+        text="AGENDAR"
+      />
 
+
+
+
+{/* <a href="https://calendly.com/walecampusano/20min"><div className="botón"> */}
+
+{/* ESTO NO<img className="botónverde" src={botónverde}/> */}
+{/* <span className="agendar-texto">AGENDAR</span> */}
+{/* </div> */}
+{/* </a> */}
 
 
 <p className="llamada">
 La llamada exploratoria GRATUÍTA consiste en una primera conversación para poder<br></br> conocernos y plantear un plan de acción para brindarte personalizadamente estos beneficios.
 </p>
-
+</div>
 <img className="estrellasgrandes" src={estrellasgrandes}/>
 
 
