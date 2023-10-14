@@ -1,0 +1,92 @@
+.sec5 {
+    height: 800px;
+    display: flex;
+    /* flex-direction: row; */
+    /* justify-content: flex-end; */
+    /* overflow: hidden; */
+    position: relative;
+    
+}
+
+/* .títuloizq {
+    display: flex;
+
+} */
+
+.qué-obtendrás{
+    display:block;
+    /* justify-content: flex-end; */
+    font-family: "theseasons-bd";
+    font-size: 6em;
+    /* margin-top: -1000px; */
+    letter-spacing: -.08em;
+    /* margin-left: 100vw; */
+    word-spacing: .2em;
+    white-space: wrap;
+    text-align: right;
+    /* position:fixed; */
+    right:0;
+    z-index: 100;
+    
+    
+    
+    /* margin-left: 100vw; */
+    display: flex;
+    /* right: 500px; */
+    /* width: 800px; */
+}
+
+
+.parrafos .te-entrego {
+    width: 600px;
+    margin-top: -50px;
+}
+
+
+.sesiones-scroll {
+display: flex;
+flex-direction: row;
+    
+overflow: hidden;
+}
+.sesiones {
+    display:flex;
+    flex-direction: column;
+    font-family: 'theseasons-li';
+    font-size: 1.2em;
+    /* font-weight: light; */
+    /* font-family: 'Times New Roman', Times, serif; */
+    text-align: center;
+    /* line-height: 2em; */
+    width: 600px;
+    padding: 50px;
+    color: rgba(69, 67, 67, 0.863);
+    background-color: white;
+    margin:.1em;
+    padding-top:20px;
+    height: 300px;
+   
+ 
+
+}
+
+
+
+
+
+.parent{
+    width:90vw;
+    /* border:5px solid red; */
+    overflow-x: hidden; 
+    float:left;
+    
+
+  }
+  .child{
+    /* width:1000px; */
+    float:left;
+    font-size:15px;
+    font-family:arial;
+    padding:10px;
+    cursor: pointer;
+  }
