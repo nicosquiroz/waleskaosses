@@ -1,5 +1,5 @@
 .sec5 {
-    height: 800px;
+    height: 1000px;
     display: flex;
     /* flex-direction: row; */
     /* justify-content: flex-end; */
@@ -216,14 +216,6 @@ overflow: hidden;
 
 
 
-.separador2 {
-    margin-left: -8svw;
-    width: 1700px;
-    position: absolute;
-    margin-top: -50px;
-    /* z-index: -10; */
-    /* mix-blend-mode: darken; */
-}
 /* .parent{
     width:90vw;
     border:5px solid red;
