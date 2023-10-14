@@ -15,33 +15,44 @@ import "./slider.css";
 
 
 export const Seccion5 = () => {
-    let mouseDown = false;
-let startX, scrollLeft;
+
+    
+    window.onload=function(){
+        let mouseDown = false;
+    let startX, scrollLeft;
 const slider = document.querySelector('.parent');
-
 const startDragging = (e) => {
-  mouseDown = true;
-  startX = e.pageX - slider.offsetLeft;
-  scrollLeft = slider.scrollLeft;
-}
+    mouseDown = true;
+    startX = e.pageX - slider.offsetLeft;
+    scrollLeft = slider.scrollLeft;
+  }
+  
+  const stopDragging = (e) => {
+    mouseDown = false;
+  }
+  
+  const move = (e) => {
+    e.preventDefault();
+    if(!mouseDown) { return; }
+    const x = e.pageX - slider.offsetLeft;
+    const scroll = x - startX;
+    slider.scrollLeft = scrollLeft - scroll;
+  }
+    
+    slider.addEventListener('mousemove', move, false);
+    slider.addEventListener('mousedown', startDragging, false);
+    slider.addEventListener('mouseup', stopDragging, false);
+    slider.addEventListener('mouseleave', stopDragging, false);
+      }
+  
+// window.addEventListener("DOMContentLoaded", (event) => {
+    
+      
+    // });
 
-const stopDragging = (e) => {
-  mouseDown = false;
-}
 
-const move = (e) => {
-  e.preventDefault();
-  if(!mouseDown) { return; }
-  const x = e.pageX - slider.offsetLeft;
-  const scroll = x - startX;
-  slider.scrollLeft = scrollLeft - scroll;
-}
-// Add the event listeners
 
-slider.addEventListener('mousemove', move, false);
-slider.addEventListener('mousedown', startDragging, false);
-slider.addEventListener('mouseup', stopDragging, false);
-slider.addEventListener('mouseleave', stopDragging, false);
+
 return (
     <div className="sec5">
         

@@ -1,29 +1,82 @@
-import "./slider.css";
+import { useState, useEffect, useCallback } from 'react';
 
-let mouseDown = false;
-let startX, scrollLeft;
-const slider = document.querySelector('.parent');
+function useSwipeScroll({
+  sliderRef,
+  reliants = [],
+  momentumVelocity = 0.9
+}) {
+  const [hasSwiped, setHasSwiped] = useState(false)
 
-const startDragging = (e) => {
-  mouseDown = true;
-  startX = e.pageX - slider.offsetLeft;
-  scrollLeft = slider.scrollLeft;
+  const init = useCallback(() => {
+    const slider = sliderRef.current;
+    let isDown = false;
+    let startX;
+    let scrollLeft;
+
+    slider.addEventListener('mousedown', (e) => {
+      isDown = true;
+      slider.classList.add('active');
+      startX = e.pageX - slider.offsetLeft;
+      scrollLeft = slider.scrollLeft;
+      cancelMomentumTracking();
+    });
+
+    slider.addEventListener('mouseleave', () => {
+      isDown = false;
+      slider.classList.remove('active');
+    });
+
+    slider.addEventListener('mouseup', () => {
+      isDown = false;
+      slider.classList.remove('active');
+      beginMomentumTracking();
+      setTimeout(() => setHasSwiped(false), 0)
+    });
+
+    slider.addEventListener('mousemove', (e) => {
+      if (!isDown) return;
+      e.preventDefault();
+      const x = e.pageX - slider.offsetLeft;
+      const walk = (x - startX) * 3; //scroll-fast
+      let prevScrollLeft = slider.scrollLeft;
+      slider.scrollLeft = scrollLeft - walk;
+      velX = slider.scrollLeft - prevScrollLeft;
+      if (slider.scrollLeft - prevScrollLeft && !hasSwiped) {
+        setHasSwiped(true)
+      }
+    });
+
+    // Momentum 
+    let velX = 0;
+    let momentumID;
+
+    slider.addEventListener('wheel', (e) => {
+      cancelMomentumTracking();
+    });
+
+    function beginMomentumTracking() {
+      cancelMomentumTracking();
+      momentumID = requestAnimationFrame(momentumLoop);
+    }
+    function cancelMomentumTracking() {
+      cancelAnimationFrame(momentumID);
+    }
+    function momentumLoop() {
+      slider.scrollLeft += velX;
+      velX *= momentumVelocity;
+      if (Math.abs(velX) > 0.5) {
+        momentumID = requestAnimationFrame(momentumLoop);
+      }
+    }
+  })
+
+  useEffect(() => {
+    init();
+  }, [...reliants])
+
+  return {
+    hasSwiped,
+  }
 }
 
-const stopDragging = (e) => {
-  mouseDown = false;
-}
-
-const move = (e) => {
-  e.preventDefault();
-  if(!mouseDown) { return; }
-  const x = e.pageX - slider.offsetLeft;
-  const scroll = x - startX;
-  slider.scrollLeft = scrollLeft - scroll;
-}
-
-// Add the event listeners
-slider.addEventListener('mousemove', move, false);
-slider.addEventListener('mousedown', startDragging, false);
-slider.addEventListener('mouseup', stopDragging, false);
-slider.addEventListener('mouseleave', stopDragging, false);
+export default useSwipeScroll;
