@@ -74,19 +74,10 @@ Viví en carne propia la desesperación de <b>estar en un trabajo que me hacía 
 <div className="divestrellasfinal">
 <img className="estrellasfinal" src={estrellasfinal}/>
 </div>
+
+<div className="sobre-mí"> <p className="trabajemos">TRABAJEMOS JUNTAS</p></div>
 <div className="cta">
 
-<div className="aa">
-<PopupButton className="agendar-texto2"
-        url="https://calendly.com/walecampusano/20min"
-        /*
-         * react-calendly uses React's Portal feature (https://reactjs.org/docs/portals.html) to render the popup modal. As a result, you'll need to
-         * specify the rootElement property to ensure that the modal is inserted into the correct domNode.
-         */
-        rootElement={document.getElementById("root")}
-        text="AGENDA TU LLAMADA"
-      />
-</div>
 
 
 
@@ -101,6 +92,17 @@ Viví en carne propia la desesperación de <b>estar en un trabajo que me hacía 
 
 </div>
 
+<div className="aa">
+<PopupButton className="agendar-texto2"
+        url="https://calendly.com/walecampusano/20min"
+        /*
+         * react-calendly uses React's Portal feature (https://reactjs.org/docs/portals.html) to render the popup modal. As a result, you'll need to
+         * specify the rootElement property to ensure that the modal is inserted into the correct domNode.
+         */
+        rootElement={document.getElementById("root")}
+        text="AGENDA TU LLAMADA"
+      />
+</div>
 </div>
 
 </div>

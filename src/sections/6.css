@@ -104,7 +104,7 @@
 
 .cta {
     display: flex;
-    margin-top: -15px;
+    margin-top: 150px;
 }
 .tarjetawale {
     /* position: absolute; */
@@ -137,7 +137,7 @@
     /* display: inline-block; */
     /* display: flex; */
     /* width: 1000px; */
-    text-align: right;
+    text-align: left;
     /* position:relative; */
     border:none;
     cursor:pointer;
@@ -213,4 +213,9 @@
 }
 .divestrellasfinal {
     position: relative;
+}
+
+
+.trabajemos{
+    margin-top: -290px;
 }
