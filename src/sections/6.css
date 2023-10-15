@@ -1,9 +1,16 @@
-/* .sec6 {
-    background-image: url("../img/sobremí.svg");
-} */
+.sec6 {
+    height:2000px;
+    display: relative;
+}
+.sec6 .frame {
+    height:1300px;
+}
 .fondonegro {
-    display: flex;
+    display: relative;
+    /* height: 1500px; */
+    /* height:1000px; */
     /* margin-top: -50px; */
+    /* overflow: hidden; */
     
 
 }
@@ -13,6 +20,7 @@
     position: absolute;
     margin-top: -330px;
     height:700px;
+    opacity: .90;;
     /* object-fit: cover; */
     /* object-position: 0 10%; */
     /* z-index: -10; */
@@ -20,23 +28,27 @@
 }
 
 .sobremí {
-    width: 100vw;
-    margin-left: -6.2svw;
+    /* width: 100vw; */
+    margin-left: -80px;
     position: absolute;
-    margin-top: -55px;
+    margin-top: -52px;
     /* z-index: auto; */
-    /* opacity: .7; */
-    mix-blend-mode: darken;
+    opacity: .95;
+    height: 1300px;
+    /* mix-blend-mode: darken; */
 }
 
 
 .sobremicontent .parrafos{
     margin-top: 50px;
-    color:white;   
-    mix-blend-mode: exclusion; 
+    color:white; 
+    mix-blend-mode:difference;; 
     z-index: 100;
+    width: 300px;
 }
-
+.sobremicontent .parrafos b{
+    font-weight: 600;
+}
 
 
 .sobre-mí{
@@ -51,6 +63,7 @@
     z-index: 100;
     color:white;   
     mix-blend-mode: exclusion; 
+    margin-left:4svw;
 }
 
 .libros {
@@ -58,9 +71,146 @@
     opacity: .4;
     margin-left: 10svw;
     width: 400px;
-    margin-top: 50px;
+    margin-top: 40px;
+    margin-bottom: -10px;
 }
 
-.tomando {
+/* .tomando {
     width: 700px;
+} */
+
+
+.fotoperfil {
+    position: absolute;
+    width: 55vw;
+    mix-blend-mode: normal;
+    margin-left: auto;
+    right: 0;
+    margin-right: -14svw;
+    margin-top: -830px;
+    filter: contrast(1.05) brightness(.9);
+    
+}
+
+/* .fotoperfil2 {
+    position: absolute;
+    width: 60vw;
+    margin-left: auto;
+    right: 0;
+    margin-right: -14svw;
+    margin-top: -850px;
+} */
+
+
+.cta {
+    display: flex;
+    margin-top: -15px;
+}
+.tarjetawale {
+    /* position: absolute; */
+    margin-top: 100px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    width:  500px;
+    /* margin-left: 50vw; */
+    margin-right:10svw;
+    margin-left: 10svw;
+}
+
+.primera-inserción .agendafinal {
+    margin-left: 20vw;
+}
+
+
+.agendar-texto2 {
+    color: #00362b;
+    opacity: 1;
+    margin-top: 1.6em;
+    font-family: "theseasons-bd";
+    font-size: 4em;
+    /* margin-left: -200px; */
+    /* margin-right: 7000px; */
+    letter-spacing: -.02em;
+    word-spacing: .2em;
+    line-height: .8em;
+    /* display: inline-block; */
+    /* display: flex; */
+    /* width: 1000px; */
+    text-align: right;
+    /* position:relative; */
+    border:none;
+    cursor:pointer;
+    background: none;
+    z-index: 1000;
+
+}
+
+.agendar-texto2:hover {
+    color:black;
+}
+
+
+
+
+
+
+.contactos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: -110px;
+    
+    
+}
+
+
+.mail{
+    margin: 10px;
+    mix-blend-mode: multiply;
+}
+.instagram {
+    margin:10px;
+}
+
+
+.tarjeta {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+
+
+.estrellasfinal {
+    z-index: 1000;
+    /* width:110vw; */
+    height: 1000px;
+    /* background-color: black; */
+    position:absolute;
+    margin-top: -800px;
+    margin-left: -0px;
+    overflow: hidden;
+    
+
+}
+
+.estrellasfinalarriba {
+    z-index: 1;
+    /* width:110vw; */
+    /* height: 800px; */
+    /* background-color: black; */
+    position:absolute;
+    margin-top: -350px;
+    margin-left: -210px;
+    transform: rotate(180deg);
+    overflow: hidden;
+    /* object-fit: contain; */
+    width: 1500px;
+
+}
+.divestrellasfinal {
+    position: relative;
 }
