@@ -29,24 +29,63 @@
     margin-top: 50px;
 }
 
-.testimonios {
+/* .testimonios {
 
     display:flex;
     overflow: hidden;
-}
-.testimonios p {
-    font-family: 'theseasons-li';
-    font-size: 1.2em;
-    /* font-weight: light; */
-    /* font-family: 'Times New Roman', Times, serif; */
-    text-align: center;
-    /* line-height: 2em; */
-    width: 200px;
-    padding: 20px;
-    color: white;
-    background-color: #083d14d7;
-    margin:.1em;
-    height: 300px;
+} */
+
+.testimonios {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* background-color: #2196F3; */
+    padding: 10px;
+    width:90vw;;
+  }
+
  
+.grid-item{
+        font-family: 'theseasons-li';
+        font-size: 1.3em;
+        /* font-weight: light; */
+        /* font-family: 'Times New Roman', Times, serif; */
+        text-align: center;
+        /* line-height: 2em; */
+        width: 300px;
+        padding: 20px;
+        color: white;
+        background-color: #083d14d7;
+
+    color: transparent;
+    text-shadow: 0px 2px 3px rgba(255,255,255,0.5);
+    -webkit-background-clip: text;
+       -moz-background-clip: text;
+            background-clip: text;
 
 }
+.grid-item:hover {
+    background-color:black;
+}
+
+/* .grid-item:hover{
+    color:transparent;
+    text-shadow: none;
+    
+    -webkit-background-clip:content-box;
+    -moz-background-clip:border-box;
+         background-clip:content-box;
+    background-image: url(../img/tarjeta1.svg);
+    height: 180px;
+    background-repeat: no-repeat;
+    background-position: center;
+} */
+/* .box {
+    background-color: white;
+    opacity: .1;
+
+} */
+/* .testimonios p:hover{
+    background-color: white;
+} */
+
+
