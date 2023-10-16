@@ -15,17 +15,17 @@ export const Landing = () => {
   return (
     <div className="web">
       {/* <Negocios/> */}
-      {/* <Seccion1/>
+      <Seccion1/>
       <Seccion2/>
       <Seccion3/>
       <Seccion4/>
       <Seccion5/>
-      <Seccion6/> */}
+      <Seccion6/>
       {/* <Seccion7/> */}
       
       {/* https://codesandbox.io/s/desktop-momentum-scrollingparallax-react-t8wr5?file=/src/App.js */}
     {/* <img className="web" src={web}/> */}
-    <img className="webnegocios" src={negocios}/>
+    {/* <img className="webnegocios" src={negocios}/> */}
 
 
     
