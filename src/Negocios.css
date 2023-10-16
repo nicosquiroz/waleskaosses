@@ -68,7 +68,7 @@
   overflow: hidden;
   position: absolute;
   top: 0;
-  width: 758px;
+  width: 70vw;
   
 }
 
@@ -76,22 +76,22 @@
   -webkit-backdrop-filter: blur(4px) brightness(100%);
   backdrop-filter: blur(2px) brightness(100%);
   background-color: #837e7e3b;
-  height: 62px;
+  height: 25px;
   left: 23px;
   position: relative;
   top: 102px;
-  width: 914px;
+  width: 60vw;
   border-style:solid;
   border-color: rgb(214, 214, 214);
   border-radius: 7px;
-  border-width: 1px;
+  border-width: .1px;
   
 }
 
 .macbook-air .rectangle-wrapper {
   -webkit-backdrop-filter: blur(2px) brightness(100%);
   backdrop-filter: blur(4px) brightness(100%);
-  height: 23px;
+  height: 25px;
   left: 0;
   overflow: hidden;
   position: absolute;
@@ -101,42 +101,42 @@
 }
 
 .macbook-air .div {
-  background-color: #d9ff703b;
-  background-color: #5dd6f492;
+  /* background-color: #d9ff703b; */
+  /* background-color: #5dd6f492; */
   animation: bgColor 100s infinite linear;
-  height: 62px;
-  left: 36px;
+  height: 23px;
+  /* left: 36px; */
   position: relative;
   width: 922px;
   border-style:solid;
   border-color: rgb(214, 214, 214);
   border-radius: 7px;
-  border-width: 1px;
+  border-width: .1px;
 }
 @keyframes bgColor {
   12.5% {
     background-color: #ff6d6d35;
   }
   25% {
-    background-color: #ffca6947;
+    background-color: #e2fd6d47;
   }
   37.5% {
-    background-color: #ffff7037;
+    background-color: #ffff702d;
   }
   50% {
-    background-color: #baff7563;
+    background-color: #baff7535;
   }
   62.5% {
-    background-color: #70ffff38;
+    background-color: #88ffff4a;
   }
   75% {
     background-color: #7171ff38;
   }
   87.5% {
-    background-color: #d175ff34;
+    background-color: #bf5cf134;
   }
   100% {
-    background-color: #ff76bf2c;
+    background-color: #e361c92c;
   }
 }
 @media screen and (max-width:900px) {
@@ -360,7 +360,7 @@
 .párrafo_grande {
   color: #000000;
   font-family: "Helvetica Neue-Medium", Helvetica;
-  font-size: 1.2em;
+  font-size: 28px;
   font-weight: 500;
   /* left: 664px; */
   letter-spacing: -1.12px;
