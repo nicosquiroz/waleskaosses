@@ -6,12 +6,56 @@ export const Negocios = () => {
   return (
     <div className="todo">
     <div className="macbook-air">
+      <div className="nav">
+      
+        <span className="nav_inicio">Contáctanos para ser un Cliente Beta</span>
+        <span className="nav_inicio_up">Contáctanos para ser un Cliente Beta</span>
+        {/* <span className="nav_inicio">Inicio</span> */}
+        {/* <span>Servicios</span>
+        <span>Historias</span> 
+        <span>Contacto</span> */}
+        <span className="nav_earlyaccess"><a href="https://nicosquiroz.github.io"><u>Early Access</u></a> &#8599;</span>
+        <div className="frame2">
+          <div className="rectangle2" />
+        </div>
+        <div className="rectangle-wrapper2">
+          <div className="div2" />
+        </div>
+        
+
+      </div>
+      
+
       <p className="vi-a-del-mar">
         Viña del Mar - Santiago CL
         <br />
-        <a href="#contacto"><b><u>Early Access</u></b></a>
+        {/* <a href="#contacto"><b><u>Early Access</u></b></a> */}
       </p>
-      {/* <div className="frame2">
+    
+
+
+      {/* <div className="frame3">
+          <div className="rectangle2" />
+        </div>
+        <div className="rectangle-wrapper2">
+          <div className="div2" />
+        </div>
+
+        <div className="frame4">
+          <div className="rectangle2" />
+        </div>
+        <div className="rectangle-wrapper2">
+          <div className="div2" />
+        </div>
+
+        <div className="frame5">
+          <div className="rectangle2" />
+        </div>
+        <div className="rectangle-wrapper2">
+          <div className="div2" />
+        </div>
+
+        <div className="frame6">
           <div className="rectangle2" />
         </div>
         <div className="rectangle-wrapper2">
@@ -24,9 +68,9 @@ export const Negocios = () => {
         </p>
 
 
-        <div className="frame">
+        {/* <div className="frame">
           <div className="rectangle" />
-        </div>
+        </div> */}
 
         <div className="rectangle-wrapper">
           <div className="div" />
@@ -83,19 +127,24 @@ export const Negocios = () => {
       </div>
 
       <div class="column">
-      <p className="párrafo_grande">
-        Programa de sesiones para llevar a tu negocio a consolidar su idea temprana, hacer pruebas de validación,
-        fundamentación de marca y la creación del MVP.
-      </p>
+      
       <div className="modelo-de-negocio">
-        {/* Modelo de negocio,
-        <br />
+       Modelo de negocio,
+        <br></br>
         Branding,
-        <br />
-        Web */}
+        <br></br>
+        Web
         
       
-        <div className="nombre_servicios">      
+        
+        <p className="programade">
+        Programa de sesiones para llevar a tu negocio a consolidar su idea temprana, hacer pruebas de validación,
+        fundamentación de marca y la creación del MVP.
+       </p>
+
+
+        <div className="nombre_servicios"> 
+             
         <div className="MODELO-DE-NEGOCIO">
           _MODELO DE NEGOCIO
           <br />
@@ -178,7 +227,7 @@ export const Negocios = () => {
         <div className="text-wrapper-2"><i>(That's here) That's us.</i></div>
         <div className="group">
           <div className="image-wrapper">
-            <img className="image" alt="fotos" src={footer} />
+            <img className="imagen" alt="fotos" src={footer} />
           </div>
         </div>
         

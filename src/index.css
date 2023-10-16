@@ -26,3 +26,10 @@ code {
   /* other formats include: 'woff2', 'truetype, 'opentype',
                             'embedded-opentype', and 'svg' */
 }
+
+@font-face {
+  font-family: 'Helvetica Neue-Regular';
+  src: local('Helvetica Neue-Regular'), url(./fonts/Helvetica\ Neue\ Regular.otf) format('opentype');
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
+}

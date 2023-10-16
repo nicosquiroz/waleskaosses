@@ -15,7 +15,57 @@ html {
   margin-left: 2svw;
   margin-right: 2svw;
 }
+.nav {
+  display: flex;
+  position: absolute;
 
+  position: absolute;
+  z-index: 1;
+  /* opacity: .8; */
+}
+.nav span{
+  font-family: Helvetica;
+  background-color: black;
+  color:white;
+  margin-left: 10px;
+  height:28px;
+  position: relative;
+  margin-top: 31px;
+  z-index: 10;
+  width:100px;
+  border-radius: 15px;
+  text-align: center;
+  line-height: 28px;
+}
+.nav .nav_inicio{
+  z-index: 10;
+  width:400px;
+  background-color: transparent;
+  color: rgb(120, 244, 255);
+  text-transform: uppercase;
+  font-weight: bold;
+
+}
+.nav .nav_inicio_up{
+  z-index: 11;
+  width:400px;
+  background-color: transparent;
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+  position:absolute;
+
+}
+.nav .nav_earlyaccess {
+  width: 250px;
+  margin-left: 27vw;
+  right:0;
+  z-index: 100;
+  font-weight: bold;
+}
+.nav .nav_earlyaccess a{
+ color: white;
+}
 .macbook-air .vi-a-del-mar {
   color: #000000;
   font-family: "Helvetica Neue-Medium", Helvetica;
@@ -25,7 +75,7 @@ html {
   letter-spacing: -0.71px;
   line-height: normal;
   position: absolute;
-  top: 31px;
+  top: 24px;
   width: 258px;
 }
 
@@ -41,15 +91,17 @@ html {
 
 .macbook-air .enfocando {
   color: #ffffff;
-  font-family: "Helvetica Neue-Regular", Helvetica;
+  font-family: Arial, Helvetica, sans-serif;
+  /* font-family: "Helvetica Neue-Regular"; */
   font-size: 70px;
-  font-size: 5.4vw;
+  font-size: 5.6vw;
   font-weight: 400;
+  /* word-spacing: .09em; */
   /* height: 209px; */
   left: 17px;
-  letter-spacing: -4.55px;
+  letter-spacing: -5.45px;
   line-height: 58.1px;
-  line-height: .85em;
+  line-height: .8em;
   mix-blend-mode: exclusion;
   /* position: absolute; */
   /* top: 53px; */
@@ -74,17 +126,59 @@ html {
   width: 70vw;
   
 }
-/* .macbook-air .frame2 {
+.macbook-air .frame2 {
 
-  height: 100px;
+  height: 30px;
   overflow: hidden;
   position: absolute;
-  top: -100px;
-  width: 100px;
-  border-radius: 7px;
-  margin-left: 50%;
+  top: 30px;
+  width: 1000px;
+  border-radius: 15px;
+  margin-left: 0%;
   
-} */
+}
+
+.macbook-air .frame3 {
+  height: 30px;
+  overflow: hidden;
+  position: absolute;
+  top: 300px;
+  width: 1000px;
+  border-radius: 15px;
+  margin-left: 0%;
+}
+
+.macbook-air .frame4 {
+  height: 30px;
+  overflow: hidden;
+  position: absolute;
+  top: 340px;
+  width: 1000px;
+  border-radius: 15px;
+  margin-left: 30%;
+  background-color: rgba(92, 241, 255, 0.553);
+}
+
+.macbook-air .frame5 {
+  height: 30px;
+  overflow: hidden;
+  position: absolute;
+  top: 250px;
+  width: 1000px;
+  border-radius: 15px;
+  margin-left: 30%;
+}
+
+.macbook-air .frame6 {
+  height: 30px;
+  overflow: hidden;
+  position: absolute;
+  top: 230px;
+  width: 1000px;
+  border-radius: 15px;
+  margin-left: 3%;
+  background-color: rgba(255, 242, 0, 0.206);
+}
 
 .macbook-air .rectangle {
   -webkit-backdrop-filter: blur(4px) brightness(100%);
@@ -101,21 +195,27 @@ html {
   border-width: .1px;
   
 }
-/* .macbook-air .rectangle2 {
-  -webkit-backdrop-filter: blur(4px) brightness(100%);
-  backdrop-filter: blur(2px) brightness(100%);
-  background-color: #74efff3b;
-  height: 100px;
+.macbook-air .rectangle2 {
+  -webkit-backdrop-filter: blur(2px) brightness(100%);
+  backdrop-filter: blur(1px) brightness(100%);
+  /* background-color: #74efff3b; */
+  animation: bgColor 50s infinite linear;
+
+  height: 30px;
   
   position: relative;
   
-  width: 100px;
+  width: 1000px;
   border-style:solid;
   border-color: rgb(214, 214, 214);
-  border-radius: 7px;
+  border-radius: 15px;
   border-width: .1px;
+  z-index:10;
+  mix-blend-mode: darken;
   
-} */
+}
+
+
 
 .macbook-air .rectangle-wrapper {
   
@@ -326,6 +426,7 @@ html {
 
 .footer {
   margin-top: 50svh;
+  vertical-align: top;
 }
 .image-wrapper {
   /* background-image: white; */
@@ -336,14 +437,17 @@ html {
   left: 85px;
   /* position: relative; */
   width: 100%;
+  vertical-align: top;
 }
 
-.macbook-air .image {
+.macbook-air .imagen {
   /* height: 198px; */
-  left: 0;
+  /* left: 0; */
   /* position: absolute; */
   /* top: 2px; */
   width: 1280px;
+  vertical-align: top;
+  padding-bottom:-10px;
   
   
 }
@@ -388,6 +492,19 @@ html {
   /* top: 971px; */
   width: 655px;
 }
+.macbook-air .programade {
+  color: #000000;
+  font-family: "Helvetica-Regular", Helvetica;
+  font-size: 19px;
+  font-weight: lighter;
+  /* left: 664px; */
+  letter-spacing: -0.8px;
+  line-height: 1.2em;
+  /* position: absolute; */
+  /* top: 756px; */
+  width: 412px;
+}
+
 
 .macbook-air .p {
   color: #000000;
@@ -403,10 +520,11 @@ html {
 }
 
 .párrafo_grande {
-  color: #000000;
-  font-family: "Helvetica Neue-Medium", Helvetica;
+  color: #222222;
+  font-family: Helvetica;
+  font-family: Arial;
   font-size: 27px;
-  font-weight: 500;
+  font-weight: 400;
   /* left: 664px; */
   letter-spacing: -1.12px;
   line-height: 1.2em;
@@ -433,9 +551,12 @@ html {
 }
 
 
+
+
 .quéhacemos_section {
   /* margin-top: 500px; */
   margin-left: 3svw;
+  margin-top:-7vh;
  }
 .servicios_section {
   margin-top:200px;
@@ -454,6 +575,7 @@ html {
   display: flex;
 }
 
+
 .macbook-air .MODELO-DE-NEGOCIO {
   color: #d3d3d3;
   font-family: "Helvetica Neue-Regular", Helvetica;
@@ -468,6 +590,9 @@ html {
   top: 0;
   width: 284px;
 }
+
+
+
 
 .macbook-air .REBRANDING-ASESOR-a {
   color: #d3d3d3;
@@ -518,15 +643,15 @@ html {
 
 .qué_hacemos {
   margin-top: -1em;
-  margin-left:3svw;
+  /* margin-left:3svw; */
   
 }
 .modelo-de-negocio{
-  margin-left: 3svw;
+  margin-left: 0svw;
 }
 .contacto_info {
   margin-top: -1em;
-  margin-left: 3svw;
+  /* margin-left: 3svw; */
   width: 500px;
 }
 
