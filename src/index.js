@@ -9,13 +9,13 @@ import './fonts/Fontspring-DEMO-theseasons-bd.otf';
 import './fonts/Fontspring-DEMO-theseasons-reg.otf';
 import { HashRouter } from 'react-router-dom';
 
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-  Link
+// import {
+//   BrowserRouter as Router,
+//   Routes,
+//   Route,
+//   Link
 
-} from 'react-router-dom';
+// } from 'react-router-dom';
 import { createHashRouter, RouterProvider } from 'react-router-dom';
 
 
