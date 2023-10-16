@@ -61,7 +61,7 @@ Viví en carne propia la desesperación de <b>estar en un trabajo que me hacía 
 
 <p className="tomando">Tomando un montón de cursos y asesorías, llegué al trabajo de mis sueños y <b>quise ayudar a otros a hacerles más fácil el camino</b>, que consigan un trabajo que los haga sentirse que son tratados con respeto, se sienten en calma y pueden usar su potencial. Y que si quieren cambiar su rumbo (área) sepan que pueden hacerlo.</p>
 
-
+<p> Si resuenas con este proceso, y piensas que soy la persona correcta para ayudarte:</p>
 </div>
 </div>
 
