@@ -74,17 +74,17 @@ html {
   width: 70vw;
   
 }
-.macbook-air .frame2 {
+/* .macbook-air .frame2 {
 
   height: 100px;
   overflow: hidden;
   position: absolute;
-  /* top: -100px; */
+  top: -100px;
   width: 100px;
   border-radius: 7px;
   margin-left: 50%;
   
-}
+} */
 
 .macbook-air .rectangle {
   -webkit-backdrop-filter: blur(4px) brightness(100%);
@@ -101,36 +101,37 @@ html {
   border-width: .1px;
   
 }
-.macbook-air .rectangle2 {
+/* .macbook-air .rectangle2 {
   -webkit-backdrop-filter: blur(4px) brightness(100%);
   backdrop-filter: blur(2px) brightness(100%);
   background-color: #74efff3b;
   height: 100px;
-  /* left: 23px; */
+  
   position: relative;
-  /* top: 102px; */
+  
   width: 100px;
   border-style:solid;
   border-color: rgb(214, 214, 214);
   border-radius: 7px;
   border-width: .1px;
   
-}
+} */
 
 .macbook-air .rectangle-wrapper {
-  -webkit-backdrop-filter: blur(2px) brightness(100%);
-  backdrop-filter: blur(4px) brightness(100%);
-  height: 25px;
+  
+  height: 30px;
   left: 0;
   overflow: hidden;
   position: absolute;
-  top: 5svw;
+  top: 16svw;
+  border-radius: 7px;
+  opacity: 1;
   /* width: 982px; */
-  animation: identifier 100s infinite linear;
+  /* animation: identifier 100s infinite linear;
   animation-timing-function: ease-in-out;
--webkit-animation-timing-function: ease-in-out;
+-webkit-animation-timing-function: ease-in-out; } */
 }
-@keyframes identifier {
+/* @keyframes identifier {
   0% {
     margin-top: -2svw;
   }
@@ -140,12 +141,14 @@ html {
   100% {
     margin-top:1svw;
   }
-}
+} */
 .macbook-air .div {
   /* background-color: #d9ff703b; */
+  -webkit-backdrop-filter: blur(4px) brightness(100%);
+  backdrop-filter: blur(2px) brightness(100%);
   /* background-color: #5dd6f492; */
-  animation: bgColor 100s infinite linear;
-  height: 23px;
+  animation: bgColor 50s infinite linear;
+  height: 29px;
   /* left: 36px; */
   position: relative;
   width: 922px;
@@ -157,7 +160,7 @@ html {
 
 @keyframes bgColor {
   12.5% {
-    background-color: #ff6d6d35;
+    background-color: #6dff8d35;
   }
   25% {
     background-color: #e2fd6d47;
@@ -175,7 +178,7 @@ html {
     background-color: #7171ff38;
   }
   87.5% {
-    background-color: #bf5cf134;
+    background-color: #95c1ff34;
   }
   100% {
     background-color: #e361c92c;
@@ -402,14 +405,14 @@ html {
 .párrafo_grande {
   color: #000000;
   font-family: "Helvetica Neue-Medium", Helvetica;
-  font-size: 28px;
+  font-size: 27px;
   font-weight: 500;
   /* left: 664px; */
   letter-spacing: -1.12px;
   line-height: 1.2em;
   /* position: absolute; */
   /* top: 616px; */
-  width: 515px;
+  width: 500px;
 }
 .servicios_section .párrafo_grande {
   margin-left:3svw;
@@ -524,6 +527,7 @@ html {
 .contacto_info {
   margin-top: -1em;
   margin-left: 3svw;
+  width: 500px;
 }
 
 .code {

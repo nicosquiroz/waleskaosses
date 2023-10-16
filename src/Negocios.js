@@ -9,7 +9,7 @@ export const Negocios = () => {
       <p className="vi-a-del-mar">
         Viña del Mar - Santiago CL
         <br />
-        <a href="#contacto"><b><u>Early Acces </u></b></a>
+        <a href="#contacto"><b><u>Early Access</u></b></a>
       </p>
       {/* <div className="frame2">
           <div className="rectangle2" />
@@ -27,14 +27,13 @@ export const Negocios = () => {
         <div className="frame">
           <div className="rectangle" />
         </div>
+
         <div className="rectangle-wrapper">
           <div className="div" />
         </div>
 
         
-        <div className="rectangle-wrapper">
-          <div className="div" />
-        </div>
+        
       </div>
       <img className="line" alt="Line" src="line-1.svg" />
 
@@ -89,11 +88,11 @@ export const Negocios = () => {
         fundamentación de marca y la creación del MVP.
       </p>
       <div className="modelo-de-negocio">
-        Modelo de negocio,
+        {/* Modelo de negocio,
         <br />
         Branding,
         <br />
-        Web
+        Web */}
         
       
         <div className="nombre_servicios">      
@@ -155,7 +154,8 @@ export const Negocios = () => {
 
       <div className="contacto_info">
       <p className="want-to-work">Want to work together? -&gt; Here (asesoría)</p>
-      <p className="interested-in-the">Interested in the project? Contact us here.</p>
+      <p className="interested-in-the">Interested in the project? Contact us here. Estamos buscando nuevos Clientes Beta! Si te interesa trabajar con nosotros, inscríbete para Early Access.</p>
+      <p className="párrafo_grande"><u>Early Access &#8599;</u></p>
       </div>
 
 
