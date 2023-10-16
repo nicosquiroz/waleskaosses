@@ -11,6 +11,12 @@ export const Negocios = () => {
         <br />
         <a href="#contacto"><b><u>Early Acces </u></b></a>
       </p>
+      {/* <div className="frame2">
+          <div className="rectangle2" />
+        </div>
+        <div className="rectangle-wrapper2">
+          <div className="div2" />
+        </div> */}
       <div className="overlap">
         <p className="enfocando">
           Enfocando herramientas de la ciencia, creatividad y tecnología a resolver problemas <br />
@@ -21,6 +27,11 @@ export const Negocios = () => {
         <div className="frame">
           <div className="rectangle" />
         </div>
+        <div className="rectangle-wrapper">
+          <div className="div" />
+        </div>
+
+        
         <div className="rectangle-wrapper">
           <div className="div" />
         </div>
