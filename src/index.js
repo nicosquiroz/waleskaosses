@@ -43,12 +43,13 @@ root.render(
   <React.StrictMode>
     {/* <RouterProvider router={router} />
     <App/> */}
-    <HashRouter>
+    <RouterProvider router={router}/>
+    {/* <HashRouter>
       <Routes>
         <Route path="/" element={<Landing />} />
         <Route path="/negocios" element={<Negocios />} />
       </Routes>
-    </HashRouter>
+    </HashRouter> */}
    
   </React.StrictMode>
 );
