@@ -45,11 +45,11 @@ export const Negocios = () => {
 
         <div className="qué_hacemos">
         <p className="párrafo_grande">
-        _Trabajamos con emprendedores del área STEM ayudándolos a desarrollar su marca, modelo de negocio y su visión
+        Trabajamos con emprendedores del área STEM ayudándolos a desarrollar su marca, modelo de negocio y su visión
         científica única.
       </p>
       <p className="text-wrapper-5">
-        _Ocupamos estrategias, y conocimientos especializados científicos que podemos entender y compartir para entregar
+        Ocupamos estrategias, y conocimientos especializados científicos que podemos entender y compartir para entregar
         soluciones de diseño de marca y de productos.
       </p>
       </div>
@@ -73,17 +73,17 @@ export const Negocios = () => {
       </div>
 
       <div class="column">
-
+      <p className="párrafo_grande">
+        Programa de sesiones para llevar a tu negocio a consolidar su idea temprana, hacer pruebas de validación,
+        fundamentación de marca y la creación del MVP.
+      </p>
       <div className="modelo-de-negocio">
         Modelo de negocio,
         <br />
         Branding,
         <br />
         Web
-        <p className="p">
-        _Programa de sesiones para llevar a tu negocio a consolidar su idea temprana, hacer pruebas de validación,
-        fundamentación de marca y la creación del MVP.
-      </p>
+        
       
         <div className="nombre_servicios">      
         <div className="MODELO-DE-NEGOCIO">
@@ -164,13 +164,13 @@ export const Negocios = () => {
     <div className="footer">
       <div className="overlap-3">
 
-        <div className="text-wrapper-2">(Thats here) That’s us.</div>
+        <div className="text-wrapper-2"><i>(That's here) That's us.</i></div>
         <div className="group">
           <div className="image-wrapper">
             <img className="image" alt="fotos" src={footer} />
           </div>
         </div>
-        <div className="text-wrapper-3">That’s here. That’s us.</div>
+        
       </div>
 
       </div>

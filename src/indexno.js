@@ -10,31 +10,32 @@ import './fonts/Fontspring-DEMO-theseasons-reg.otf';
 import { HashRouter } from 'react-router-dom';
 
 import {
+
   Routes,
   Route,
   Link
 
 } from 'react-router-dom';
-// import { createHashRouter, RouterProvider } from 'react-router-dom';
+import { createHashRouter, RouterProvider } from 'react-router-dom';
 
 
-// const router = createHashRouter(
-//      [
-//         {
-//             path: "/",
-//             children : [
-//                 {
-//                     path: "/waleskaosses/landing",
-//                     element: <Landing/>
-//                  },
-//                  {
-//                      path: "/waleskaosses/negocios",
-//                      element: <Negocios/>
-//                  }
-//             ]
-//         }
-//     ]
-// );
+const router = createHashRouter(
+     [
+        {
+            path: "/",
+            children : [
+                {
+                    path: "/",
+                    element: <Landing/>
+                 },
+                 {
+                     path: "/negocios",
+                     element: <Negocios/>
+                 }
+            ]
+        }
+    ]
+);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -42,12 +43,13 @@ root.render(
   <React.StrictMode>
     {/* <RouterProvider router={router} />
     <App/> */}
-    <HashRouter>
+    <RouterProvider router={router}/>
+    {/* <HashRouter>
       <Routes>
-       <Route path="/" element={<Landing />} />
-      <Route path="/negocios" element={<Negocios />} />
+        <Route path="/" element={<Landing />} />
+        <Route path="/negocios" element={<Negocios />} />
       </Routes>
-    </HashRouter>
+    </HashRouter> */}
    
   </React.StrictMode>
 );
