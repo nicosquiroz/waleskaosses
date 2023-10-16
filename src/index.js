@@ -16,26 +16,26 @@ import {
   Link
 
 } from 'react-router-dom';
-// import { createHashRouter, RouterProvider } from 'react-router-dom';
+import { createHashRouter, RouterProvider } from 'react-router-dom';
 
 
-// const router = createHashRouter(
-//      [
-//         {
-//             path: "/",
-//             children : [
-//                 {
-//                     path: "/waleskaosses/landing",
-//                     element: <Landing/>
-//                  },
-//                  {
-//                      path: "/waleskaosses/negocios",
-//                      element: <Negocios/>
-//                  }
-//             ]
-//         }
-//     ]
-// );
+const router = createHashRouter(
+     [
+        {
+            path: "/",
+            children : [
+                {
+                    path: "/",
+                    element: <Landing/>
+                 },
+                 {
+                     path: "/negocios",
+                     element: <Negocios/>
+                 }
+            ]
+        }
+    ]
+);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
