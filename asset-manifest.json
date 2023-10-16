@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/waleskaosses/static/css/main.965a93ba.css",
-    "main.js": "/waleskaosses/static/js/main.076b9553.js",
+    "main.js": "/waleskaosses/static/js/main.5f60f301.js",
     "static/js/787.9bbbadeb.chunk.js": "/waleskaosses/static/js/787.9bbbadeb.chunk.js",
     "static/media/fotoperfilcrop2.png": "/waleskaosses/static/media/fotoperfilcrop2.5515e7702ff0e6889791.png",
     "static/media/web.png": "/waleskaosses/static/media/web.cec5f817fa2454be749d.png",
@@ -34,11 +34,11 @@
     "static/media/sesion1.svg": "/waleskaosses/static/media/sesion1.d193080d6da0f75ffea9c68db499bb6c.svg",
     "static/media/sección éxito.svg": "/waleskaosses/static/media/sección éxito.2ad9940e19f9c68850040ddee377c78b.svg",
     "main.965a93ba.css.map": "/waleskaosses/static/css/main.965a93ba.css.map",
-    "main.076b9553.js.map": "/waleskaosses/static/js/main.076b9553.js.map",
+    "main.5f60f301.js.map": "/waleskaosses/static/js/main.5f60f301.js.map",
     "787.9bbbadeb.chunk.js.map": "/waleskaosses/static/js/787.9bbbadeb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.965a93ba.css",
-    "static/js/main.076b9553.js"
+    "static/js/main.5f60f301.js"
   ]
 }
