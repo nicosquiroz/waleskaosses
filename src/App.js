@@ -15,16 +15,18 @@ import {
 
 export const App = () => {
   return (
+    <div>hola</div>
+    // <Landing/>
     // <ScrollContainer>
-    <Router>
-        <Routes>
+    // <Router>
+        // <Routes>
 
-            <Route path='/' element={<Landing />}></Route>
+        //     <Route path='/' element={<Landing />}></Route>
             
-            <Route path='/negocios' element={<Negocios />}></Route>
+        //     <Route path='/negocios' element={<Negocios />}></Route>
             
-        </Routes>
-    </Router>
+        // </Routes>
+    // </Router>
     // </ScrollContainer>
   );
 

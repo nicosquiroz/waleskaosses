@@ -7,6 +7,7 @@ import Negocios from './Negocios';
 import reportWebVitals from './reportWebVitals';
 import './fonts/Fontspring-DEMO-theseasons-bd.otf';
 import './fonts/Fontspring-DEMO-theseasons-reg.otf';
+import { HashRouter } from 'react-router-dom';
 
 import {
   BrowserRouter as Router,
@@ -15,11 +16,48 @@ import {
   Link
 
 } from 'react-router-dom';
+// import { createHashRouter, RouterProvider } from 'react-router-dom';
+
+
+// const router = createHashRouter(
+//      [
+//         {
+//             path: "/",
+//             children : [
+//                 {
+//                     path: "/waleskaosses/landing",
+//                     element: <Landing/>
+//                  },
+//                  {
+//                      path: "/waleskaosses/negocios",
+//                      element: <Negocios/>
+//                  }
+//             ]
+//         }
+//     ]
+// );
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+  
   <React.StrictMode>
-    <App/>
-    {/* <Router>
+    {/* <RouterProvider router={router} />
+    <App/> */}
+    <HashRouter>
+      <Routes>
+        <Route path="/" element={<Landing />} />
+        <Route path="/negocios" element={<Negocios />} />
+      </Routes>
+    </HashRouter>
+   
+  </React.StrictMode>
+);
+
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+reportWebVitals();
+ {/* <Router>
         <Routes>
 
             <Route path='/' element={<Landing />}></Route>
@@ -28,10 +66,3 @@ root.render(
             
         </Routes>
     </Router> */}
-  </React.StrictMode>
-);
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
