@@ -14,20 +14,21 @@ export const Negocios = () => {
         {/* <span>Servicios</span>
         <span>Historias</span> 
         <span>Contacto</span> */}
-        <span className="nav_earlyaccess"><a href="https://nicosquiroz.github.io"><u>Early Access</u></a> &#8599;</span>
+        {/* <span className="nav_earlyaccess"><a href="https://nicosquiroz.github.io"><u>Early Access</u></a> &#8599;</span> */}
+      
+      <span className="nav_earlyaccess2"><a href="sjdkfj"><u>Early Access</u></a> &#8599;</span>
         <div className="frame2">
           <div className="rectangle2" />
         </div>
-        <div className="rectangle-wrapper2">
+        <div className="navcolor">
           <div className="div2" />
         </div>
         
 
       </div>
       
-
       <p className="vi-a-del-mar">
-        Viña del Mar - Santiago CL
+        {/* Viña del Mar - Santiago CL */}
         <br />
         {/* <a href="#contacto"><b><u>Early Access</u></b></a> */}
       </p>

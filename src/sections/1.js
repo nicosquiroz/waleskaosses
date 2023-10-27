@@ -3,7 +3,7 @@ import "./1.css";
 import mail from "../img/mail.png";
 import instagram from "../img/instagram.svg";
 import { PopupButton } from "react-calendly";
-import "../fonts.css"
+
 
 
 export const Seccion1 = () => {
@@ -25,7 +25,8 @@ return (
       />
 {/* <p className="agenda">Agenda una llamada exploratoria Gratuíta</p> */}
 {/* <InlineWidget url="https://calendly.com/walecampusano/30min" /> */}
-<p className="conoce"><a href="#sección2">Conoce acerca de las asesorías</a></p>
+{/* <p className="conoce"><a href="#sección2">Conoce acerca de las asesorías</a></p> */}
+<p className="conoce">Conoce acerca de las asesorías</p>
 
 
 <div className="overlap-group">

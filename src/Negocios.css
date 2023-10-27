@@ -21,8 +21,10 @@ html {
 
   position: absolute;
   z-index: 1;
+  
   /* opacity: .8; */
 }
+
 .nav span{
   font-family: Helvetica;
   background-color: black;
@@ -42,8 +44,8 @@ html {
   width:400px;
   background-color: transparent;
   color: rgb(120, 244, 255);
-  text-transform: uppercase;
-  font-weight: bold;
+  /* text-transform: uppercase; */
+  font-weight: light;
 
 }
 .nav .nav_inicio_up{
@@ -51,8 +53,8 @@ html {
   width:400px;
   background-color: transparent;
   color: black;
-  text-transform: uppercase;
-  font-weight: bold;
+  /* text-transform: uppercase; */
+  font-weight: light;
   position:absolute;
 
 }
@@ -63,7 +65,19 @@ html {
   z-index: 100;
   font-weight: bold;
 }
-.nav .nav_earlyaccess a{
+.nav .nav_earlyaccess2 {
+  width: 170px;
+  /* margin-left: auto; */
+  right:40px;
+  z-index: 100;
+  /* font-weight: bold; */
+  position: fixed;
+  /* animation: bgColor 50s infinite linear; */
+  background-color: rgb(23, 23, 23);
+  
+
+}
+.nav a{
  color: white;
 }
 .macbook-air .vi-a-del-mar {
@@ -132,7 +146,7 @@ html {
   overflow: hidden;
   position: absolute;
   top: 30px;
-  width: 1000px;
+  width: 450px;
   border-radius: 15px;
   margin-left: 0%;
   
@@ -142,8 +156,8 @@ html {
   height: 30px;
   overflow: hidden;
   position: absolute;
-  top: 300px;
-  width: 1000px;
+  top: 1000px;
+  width: 100px;
   border-radius: 15px;
   margin-left: 0%;
 }
@@ -578,7 +592,7 @@ html {
 
 .macbook-air .MODELO-DE-NEGOCIO {
   color: #d3d3d3;
-  font-family: "Helvetica Neue-Regular", Helvetica;
+  font-family: "Helvetica Neue-Medium", Helvetica;
   font-size: 16px;
   font-weight: 400;
   height: 96px;
@@ -596,7 +610,7 @@ html {
 
 .macbook-air .REBRANDING-ASESOR-a {
   color: #d3d3d3;
-  font-family: "Helvetica Neue-Regular", Helvetica;
+  font-family: "Helvetica Neue-Medium", Helvetica;
   font-size: 16px;
   font-weight: 400;
   height: 96px;
