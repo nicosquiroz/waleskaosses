@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.aba776ae.css",
-    "main.js": "/static/js/main.ea1db226.js",
+    "main.css": "/static/css/main.f3d6e014.css",
+    "main.js": "/static/js/main.37d90c55.js",
     "static/js/787.9bbbadeb.chunk.js": "/static/js/787.9bbbadeb.chunk.js",
     "static/media/fotoperfilcrop2.png": "/static/media/fotoperfilcrop2.5515e7702ff0e6889791.png",
     "static/media/web.png": "/static/media/web.cec5f817fa2454be749d.png",
@@ -14,6 +14,7 @@
     "static/media/fotosinfondo.png": "/static/media/fotosinfondo.35ff43abbfc8a0168ac8.png",
     "static/media/laberinto1.png": "/static/media/laberinto1.818102ae79e1e5719fb6.png",
     "static/media/laberinto2.png": "/static/media/laberinto2.bb14b4ff85a30adc5493.png",
+    "static/media/scroll.png": "/static/media/scroll.d5c429feef7efa9a0e39.png",
     "static/media/TheSeasons-Bd.ttf": "/static/media/TheSeasons-Bd.346a707a1343479fd73d.ttf",
     "static/media/TheSeasons-Reg.ttf": "/static/media/TheSeasons-Reg.ba89be853ba4cbc6ee57.ttf",
     "static/media/mail.svg": "/static/media/mail.3970ada40086221eb51c6a7de6602613.svg",
@@ -37,12 +38,12 @@
     "index.html": "/index.html",
     "static/media/sesion1.svg": "/static/media/sesion1.d193080d6da0f75ffea9c68db499bb6c.svg",
     "static/media/sección éxito.svg": "/static/media/sección éxito.2ad9940e19f9c68850040ddee377c78b.svg",
-    "main.aba776ae.css.map": "/static/css/main.aba776ae.css.map",
-    "main.ea1db226.js.map": "/static/js/main.ea1db226.js.map",
+    "main.f3d6e014.css.map": "/static/css/main.f3d6e014.css.map",
+    "main.37d90c55.js.map": "/static/js/main.37d90c55.js.map",
     "787.9bbbadeb.chunk.js.map": "/static/js/787.9bbbadeb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.aba776ae.css",
-    "static/js/main.ea1db226.js"
+    "static/css/main.f3d6e014.css",
+    "static/js/main.37d90c55.js"
   ]
 }
