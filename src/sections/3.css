@@ -278,6 +278,9 @@ div .agendar-texto {
     }
     .estrellas2 {
         margin-left: auto;
+        width: 1000px;
+        margin-top: -400px;
+        margin-left: -30vw;
     }
     .llamada {
         width: 90vw;
