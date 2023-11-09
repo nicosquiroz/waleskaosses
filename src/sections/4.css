@@ -25,6 +25,8 @@
     opacity: .8;
 }
 
+
+
 .tarjeta1 {
     margin-top: 50px;
 }
@@ -43,7 +45,22 @@
     width:90vw;;
   }
 
- 
+  @media screen and (max-width: 700px) {
+    .exito {
+        font-size: 3em;
+        margin-left: auto;
+        margin-top: 50px;
+    }
+    .testimonios{
+        grid-template-columns: max-content;
+    }
+    .sec4{
+        height: 1200px;
+    }
+    .éxitoimg{
+        height: 1300px;
+    }
+}
 .grid-item{
         font-family: 'theseasons-li';
         font-size: 1.3em;

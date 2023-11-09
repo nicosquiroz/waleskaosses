@@ -20,7 +20,7 @@ return (
     <span className="text-wrapper-3"><b>Te encuentras evolucionando </b>hacia tus metas.</span>
     
     <span className="text-wrapper-3">
-    &nbsp;&nbsp;No hay emoción más grande que sentir que avanzamos. Pero cuando estas en un estado previo al
+    &nbsp;&nbsp;No hay emoción más grande que sentir que avanzamos. Pero cuando estás en un estado previo al
     cambio, muchas veces te encuentras en una situación de incertidumbre <br></br>donde no es tan claro <br></br>ver el
     camino.{" "}</span>
     

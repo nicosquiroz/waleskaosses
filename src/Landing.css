@@ -14,9 +14,15 @@
     background-size: 140%;
 
     overflow: hidden;
-    
-    height:7250px;
+    height: 7250px;
+    height:7400px;
     /* width: 100%; */
     /* margin-left: svw; */
 } 
 
+@media screen and (max-width: 700px) {
+    .web{
+        height: 8870px;
+    }
+    
+}

@@ -1,6 +1,11 @@
 .sec3 {
     height: 2100px;
 }
+@media screen and (max-width: 700px) {
+    .sec3 {
+        height: 2400px;
+    }
+}
 .separador1 {
     /* object-position: left; */
     margin-left: -6.2svw;
@@ -44,6 +49,8 @@
     /* white-space: nowrap; */
 }
 
+
+
 .programa{
     font-family: "theseasons-bd";
     font-size: 6em;
@@ -63,6 +70,24 @@
     white-space: nowrap;
     
 }
+@media  screen and (max-width:700px) {
+    .programa {
+        margin-top: -20vh;
+        font-size: 3.5em;
+        margin-left: -3vw;
+        margin-bottom: -5px;
+        width:90vw;
+        text-align: justify;
+    }
+    .busqueda {
+        font-size: 3.5em;
+        margin-left: -3vw;
+        white-space: pre-line;
+        word-spacing: 0;
+        line-height: .9em;
+        margin-top: 0px;
+    }
+}
 
 .laberinto1 {
     margin-top: -360px;
@@ -75,7 +100,7 @@
 .estrellas1 {
     position:absolute;
     margin-top: -250px;
-    margin-left: 25vw;;
+    margin-left: 25vw;
     height: 400px;
 }
 
@@ -86,7 +111,44 @@
     height: 400px;
     overflow: hidden;
 }
+@media screen and (max-width: 700px) {
+    .laberinto1{
+        right: 0;
+        /* margin-bottom: 300px; */
+        /* position: relative; */
+        margin-top: -950px;
+    }
+    .de-eso-se-trata{
+        margin-top: -500px;
+        position: absolute;
+        /* height: 420px; */
+        /* width: 40vw; */
+        /* right: 40vw; */
+        margin-left: auto;
+        width: auto;
 
+    }
+    .si-eres-una-persona{
+        margin-bottom: 1000px;
+    }
+    .estas-herramientas{
+        width: 90vw;
+        /* margin-left: -10vw; */
+        font-size: 1.5em;
+        letter-spacing: -.05em;
+        line-height: 1.1em;
+        margin-bottom: 0px;
+        
+    }
+    .estrellas1 {
+        margin-top: -600px;
+        margin-left: -10vw;
+    }
+    .laberinto2 {
+        margin-top: -300px;
+        margin-left: 50vw;
+    }
+    }
 
 .primera-inserción {
     color: #01846a;
@@ -106,6 +168,8 @@
     /* position:relative; */
 }
 
+
+
 .estrellas2 {
     position: absolute;
     transform: rotate(120deg) scale(.5);
@@ -114,6 +178,8 @@
     margin-left: 35vw;
     margin-top: -200px;
 }
+
+
 
 div .botón {
     display:flex;
@@ -197,4 +263,37 @@ div .agendar-texto {
     margin-top: -370px;
     height: 700px;
     z-index: 0;
+}
+
+
+@media screen and (max-width:700px) {
+    .primera-inserción{
+        margin-top: -500px;
+        margin-bottom:500px;
+        font-size: 1.9em;
+        margin-left: -5vw;
+        /* right: 0; */
+        /* margin-left: auto; */
+        /* width: 100vw; */
+    }
+    .estrellas2 {
+        margin-left: auto;
+    }
+    .llamada {
+        width: 90vw;
+        font-size:1.2em;
+        text-align: center;
+    }
+    .estrellasgrandes{
+        margin-top: -300px;
+        width: 500px;
+    }
+}
+
+
+@media screen and (max-width:700px) {
+    .parrafos {
+        margin-left: -0vw;
+        width: 90vw;
+    }
 }

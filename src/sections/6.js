@@ -38,15 +38,16 @@ return (
 
 <div className="sobremicontent">
     <div className="sobre-mí">SOBRE MÍ</div>
+    <div className="contenido">
     <div className="parrafos">
-    Soy la persona detrás de la asesoría laboral. Lo que más me apasiona es aprender y crear 
+    Soy la persona detrás de la asesoría laboral. Lo que más me apasiona es aprender y crear.
 
 <br></br>
 <br></br>
-Me interesa entender cómo funciona todo, desde los átomos a personas, de estrellas al universo. 
+Me interesa entender cómo funciona todo, desde los átomos a personas, de estrellas al universo 📚. 
 <br></br>
 <br></br>
-Creo que lo más lindo que me ha dado la ciencia es ver todo como un milagro ✨
+Creo que lo más lindo que me ha dado la ciencia es ver todo como un milagro ✨.
 <br></br>
 <br></br>
 <b>Pero la razón por la que llegué a esto, es por algo muy personal.</b>
@@ -64,7 +65,7 @@ Viví en carne propia la desesperación de <b>estar en un trabajo que me hacía 
 <p> Si resuenas con este proceso, y piensas que soy la persona correcta para ayudarte:</p>
 </div>
 </div>
-
+</div>
 
 
 

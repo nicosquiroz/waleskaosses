@@ -41,7 +41,7 @@ a las cosas que has hecho, lo te hace una persona única y por cómo lo comunica
 
 </p>
 <img className="laberinto1" src={laberinto1}/>
-
+<br></br>
 <p className="estas-herramientas">
 Estas herramientas y estrategias te volverán una persona competitiva en el mercado laboral, y tendrás un enfoque
 claro sobre cómo tus habilidades se alinean con la industria.

@@ -2,6 +2,7 @@ import React from "react";
 import "./1.css";
 import mail from "../img/mail.png";
 import instagram from "../img/instagram.svg";
+import scrolldown from "../img/scroll.png";
 import { PopupButton } from "react-calendly";
 
 
@@ -29,6 +30,7 @@ return (
 <p className="conoce">Conoce acerca de las asesorías</p>
 
 
+
 <div className="overlap-group">
 <div className="datos">
 Santiago, Chile
@@ -43,9 +45,10 @@ Data Scientist&nbsp;&nbsp;•&nbsp;&nbsp;Astrónoma
 </div>
 
 </div>
-
-
-
+{/* <div>
+<p className="conoce2">Conoce acerca de las asesorías</p>
+<img className="scroll" alt="ScrollDown" src={scrolldown}/>
+</div> */}
 {/* <img className="line" alt="Line" src="line-4.svg" />
 <img className="img" alt="Line" src="line-5.svg" /> */}
 

@@ -37,11 +37,28 @@
 }
 
 
+
 .parrafos .te-entrego {
     width: 600px;
     margin-top: -80px;
 }
 
+@media screen and (max-width: 700px) {
+    .qué-obtendrás{
+        font-size: 3em;
+        width: 20vw;
+        /* margin-left: 25vw; */
+        margin-top:50px;
+        white-space: nowrap;
+    }
+    
+    .parrafos .te-entrego {
+        margin-top: -30px;
+        width: 90vw;
+        /* margin-bottom: 50px; */
+        /* margin-left:; */
+    }
+}
 .descubre{
     font-family: "theseasons-bd";
     font-size: 1em;
@@ -97,6 +114,7 @@ overflow: hidden;
     }
     
 }
+
 .sesiones h1{
     font-family: 'Times New Roman', Times, serif;
     font-size: 1em;
@@ -117,6 +135,23 @@ overflow: hidden;
     position:relative;
     
 }
+
+@media screen and (max-width:700px) {
+    .sesiones {
+    margin-left: -100vw;
+    width: 90vw;
+    margin-top: 100px;
+    }
+    .sesionesgroup{
+        margin-top:100px;
+    }
+    .sec5{
+        height: 1200px;
+    }
+}
+
+
+
 .sesion1 {
     width: 11vw;
     position:absolute;
@@ -214,7 +249,11 @@ overflow: hidden;
 }
 
 
-
+@media screen and (max-width: 700px) {
+    .botón2 {
+        margin-top: 220px;
+    }
+}
 
 
 

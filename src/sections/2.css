@@ -22,6 +22,21 @@
     line-height: 1em;
     }
 
+    @media screen and (max-width: 700px) {
+        .situacion{
+            font-size: 2em;
+            white-space: pre-line;
+            padding-top: 10vh;
+            /* margin-left: -3vw; */
+            text-align: center;
+            margin-bottom: 80px;
+        }
+        .frame2{
+            height: 1050px;
+        }
+        
+    }
+
 
 
 .pulsar {
@@ -71,6 +86,20 @@
     letter-spacing: -1.7px;
     }
 
+    @media screen and (max-width: 700px) {
+        .opcion{
+            font-size: 1.2em;
+            margin-left: auto;
+            width: 90vw;
+        }
+        .pulsar{
+            margin-left: -9px;
+            width: 1000px;
+            margin-top: -295px;
+            margin-bottom: 150px;
+        }
+        
+    }
 
 
 
@@ -135,4 +164,36 @@
 .text-wrapper-8 {
         font-family: "Helvetica-Bold", Helvetica;
         letter-spacing: -1.2px;
+        }
+
+
+
+
+        @media screen and (max-width: 700px) {
+            
+            .beneficios{
+                margin-left: 0;
+                width: 88vw;
+                font-size: 1.2em;
+                text-indent: -25px;
+                
+            }
+            .lo-que-no-es-obvio{
+                margin-bottom: -20px;
+            }
+            .exploraremos-el{
+                margin-left: 0;
+                width: 90vw;
+                margin-bottom: -20px;
+            }
+            .incluso-si-tenemos{
+                margin-left: 0;
+                width: 90vw;
+            }
+            .text-wrapper-6{
+                font-size: 1em;
+            }
+        
+
+            
         }

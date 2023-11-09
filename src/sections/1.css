@@ -8,6 +8,12 @@
 
     }
 
+    @media screen and (max-width: 700px) {
+        .frame {
+            height: 90vh;
+        }
+    }
+
     .frame .p {
         color: #222222;
         font-family: "Helvetica-Light", Helvetica;
@@ -88,8 +94,24 @@ margin: 0;
 margin-top:8px;
 text-decoration: none;
 margin-bottom: 12px;
+visibility: hidden;
 
 }
+.frame .conoce2 {
+    color: #000000;
+    font-family: "Helvetica-Light", Helvetica;
+    font-size: .8em;
+    font-weight: 300;
+    letter-spacing: -0.4px;
+    line-height: 19.2px;
+    margin: 0;
+    margin-top:8px;
+    text-decoration: none;
+    margin-bottom: 12px;
+    text-align: center;
+    /* visibility: hidden; */
+    
+    }
 a {
     text-decoration: none;
     color: black;
@@ -166,6 +188,9 @@ a {
     @media screen and (max-width: 600px) {
         .frame .datos {
             width: 100%;
+        }
+        .frame .conoce {
+            visibility: hidden;
         }
         
       }
