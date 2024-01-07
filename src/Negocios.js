@@ -203,8 +203,10 @@ export const Negocios = () => {
       <div class="column">
 
       <div className="contacto_info">
-      <p className="want-to-work">Want to work together? -&gt; Here (asesoría)</p>
-      <p className="interested-in-the">Interested in the project? Contact us here. Estamos buscando nuevos Clientes Beta! Si te interesa trabajar con nosotros, inscríbete para Early Access.</p>
+      <p className="want-to-work">Want to work together?</p>
+      {/* -&gt; Here (asesoría) */}
+      {/* If you are interested in starting project you can contact us here. */}
+      <p className="interested-in-the"> Estamos buscando nuevos Clientes Beta! Si te interesa trabajar con nosotros, inscríbete para Early Access.</p>
       <p className="párrafo_grande"><u>Early Access &#8599;</u></p>
       </div>
 

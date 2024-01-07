@@ -325,7 +325,7 @@ html {
       top: 145px;
   }
 }
-@media screen and (max-width: 600px) { 
+@media screen and (max-width: 600px) {
   .nav .nav_earlyaccess2 {
     right:20px;
   }
@@ -514,8 +514,8 @@ html {
 .macbook-air .interested-in-the {
   color: #000000;
   font-family: "Helvetica-Regular", Helvetica;
-  font-size: 20px;
-  font-weight: 400;
+  font-size: 1.1em;
+  font-weight: lighter;
   /* left: 734px; */
   letter-spacing: -0.8px;
   line-height: 24.6px;
@@ -539,7 +539,7 @@ html {
 .macbook-air .programade {
   color: #000000;
   font-family: "Helvetica-Regular", Helvetica;
-  font-size: 19px;
+  font-size: .6em;
   font-weight: lighter;
   /* left: 664px; */
   letter-spacing: -0.8px;
@@ -582,11 +582,7 @@ html {
 }
 
 
-@media screen and (max-width: 600px){
-  .párrafo_grande{
-    width:90vw;
-  }
-}
+
 .macbook-air .text-wrapper-5 {
   color: #000000;
   font-family: "Helvetica-Regular", Helvetica;
@@ -600,7 +596,24 @@ html {
   width: 412px;
 }
 
-
+@media screen and (max-width: 600px){
+  .macbook-air .text-wrapper-5{
+    width: 90vw;
+  }
+  .macbook-air .programade{
+    width: 90vw;
+  }
+  .párrafo_grande{
+    width:90vw;
+  } 
+  .nombre_servicios {
+    flex-direction: column;
+  }
+  .macbook-air .interested-in-the {
+    width: 90vw;
+  }
+  
+}
 
 
 .quéhacemos_section {
@@ -664,7 +677,7 @@ html {
 .macbook-air .want-to-work {
   color: #000000;
   font-family: "Helvetica-Regular", Helvetica;
-  font-size: 20px;
+  font-size: 28px;
   font-weight: 400;
   /* left: 662px; */
   letter-spacing: -0.8px;
