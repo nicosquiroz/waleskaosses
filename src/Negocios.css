@@ -464,13 +464,15 @@ html {
 .image-wrapper {
   /* background-image: white; */
   background-position: 50% 50%;
-  background-position: bottom;
+  background-position-y: bottom;
+  background-position-x: right;
   background-size: cover;
   height: 200px;
-  left: 85px;
-  /* position: relative; */
+  /* left: 85px; */
+  position: absolute;
   width: 100%;
   vertical-align: top;
+  overflow: hidden;
 }
 
 .macbook-air .imagen {
