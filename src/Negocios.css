@@ -60,6 +60,9 @@ html {
 }
 
 @media screen and (max-width: 600px) {
+  .nav{
+    width: 90vw;
+  }
   .nav .nav_inicio{
     margin-left: -30px;
   }
@@ -323,11 +326,17 @@ html {
   }
 }
 @media screen and (max-width: 600px) { 
+  .nav .nav_earlyaccess2 {
+    right:20px;
+  }
+  .macbook-air .frame2 {
+    width: 90vw;
+  }
   .macbook-air .enfocando {
     width:90%;
   }
   .macbook-air .rectangle-wrapper {
-    margin-top: 10vw;
+    margin-top: 40vw;
     width: 90%;
   }
 }
@@ -444,7 +453,7 @@ html {
   white-space: nowrap;
   right: 0;
   position: absolute;
-  margin-top: -15px;
+  margin-top: -20px;
 
 }
 
@@ -458,7 +467,7 @@ html {
 
 
 .footer {
-  margin-top: 50svh;
+  /* margin-top: 50svh; */
   vertical-align: top;
 }
 .image-wrapper {
@@ -572,6 +581,12 @@ html {
   margin-top: -.05em;
 }
 
+
+@media screen and (max-width: 600px){
+  .párrafo_grande{
+    width:90vw;
+  }
+}
 .macbook-air .text-wrapper-5 {
   color: #000000;
   font-family: "Helvetica-Regular", Helvetica;
@@ -600,6 +615,7 @@ html {
 .contacto_section {
   margin-top:100px;
   margin-left: 3svw;
+  margin-bottom: 100px;
  }
 
 
