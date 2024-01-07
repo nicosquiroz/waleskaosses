@@ -58,6 +58,16 @@ html {
   position:absolute;
 
 }
+
+@media screen and (max-width: 600px) {
+  .nav .nav_inicio{
+    margin-left: -30px;
+  }
+  .nav .nav_inicio_up{
+    margin-left: -30px;
+  }
+  
+}
 .nav .nav_earlyaccess {
   width: 250px;
   margin-left: 27vw;
@@ -121,6 +131,7 @@ html {
   /* top: 53px; */
   width: 90%;
 }
+
 
 
 .sections {
@@ -311,7 +322,15 @@ html {
       top: 145px;
   }
 }
-
+@media screen and (max-width: 600px) { 
+  .macbook-air .enfocando {
+    width:90%;
+  }
+  .macbook-air .rectangle-wrapper {
+    margin-top: 10vw;
+    width: 90%;
+  }
+}
 .macbook-air .line {
   height: 1px;
   left: 4346px; 
@@ -651,7 +670,19 @@ html {
   float:left;
   width: 50%;
   right:o;
+  flex: 40%;
 }
+
+@media screen and (max-width: 700px) { 
+  .row {
+    flex-direction: column;
+  }
+  .column {
+    width: 100%;
+  }
+}
+
+
 
 
 

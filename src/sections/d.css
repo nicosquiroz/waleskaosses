@@ -11,7 +11,7 @@
 .frame .overlap {
     height: 1293px;
     left: 87px;
-    /* position: absolute; */
+    position: absolute;
     top: 409px;
     width: 1483px;
 }
